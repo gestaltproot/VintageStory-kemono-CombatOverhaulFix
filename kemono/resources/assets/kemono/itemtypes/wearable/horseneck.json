@@ -1,0 +1,121 @@
+{
+  "code": "clothes",
+  "class": "ItemWearable",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "neck"
+      ]
+    },
+    {
+      "code": "neck",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": [
+        "blackchoker",
+        "blackspikecollar",
+        "bowtie",
+        "headphones",
+        "redcollar",
+        "blackcollar"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "@.*-(blackchoker|blackspikecollar|bowtie|headphones|redcollar)": {
+      "base": "kemono:entity/horse/clothing/neck/neck-{neck}"
+    },
+    "@.*-(blackcollar)": {
+      "base": "kemono:entity/kemono/clothing/neck/neck-{neck}"
+    },
+    "*": {
+      "base": "kemono:entity/horse/clothing/neck/neck-{neck}"
+    }
+  },
+  "storageFlags": 128,
+  "attributesByType": {
+    "@.*-(blackchoker|blackspikecollar|bowtie|headphones|redcollar|blackcollar)": {
+      "wearableAttachment": true,
+      "clothescategory": "neck",
+      "disableElements": [
+
+      ],
+      "warmth": 0.25,
+      "wearerEntityCode": "kemono:kemonoclothingattach"
+    },
+    "*": {
+      "wearableAttachment": true,
+      "clothescategory": "neck",
+      "disableElements": [
+
+      ],
+      "warmth": 0.25
+    }
+  },
+  "texturesByType": {
+    "*": {
+      "seraph": { "base": "game:block/transparent" }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ]
+  },
+  "renderAlphaTest": 0.25,
+  "guiTransformByType": {
+    "@.*-(bowtie|headphones)": {
+      "translation": { "x": -0, "y": 9, "z": 0 },
+      "rotation": { "x": -75, "y": 76, "z": 3 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 3.5
+    },
+    "*": {
+      "translation": { "x": -0, "y": 9, "z": 0 },
+      "rotation": { "x": -75, "y": 76, "z": 3 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 3.5
+    }
+  },
+  "tpHandTransformByType": {
+    "@.*-*": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    },
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    }
+  },
+  "fpHandTransformByType": {
+    "@.*-*": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    },
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    }
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0.4 },
+    "rotation": { "x": 4, "y": -69, "z": -40 },
+    "origin": { "x": 0, "y": 0, "z": 0 },
+    "scale": 1.0
+  }
+}

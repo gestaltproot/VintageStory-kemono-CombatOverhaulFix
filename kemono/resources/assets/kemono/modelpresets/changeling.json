@@ -1,0 +1,103 @@
+{
+  "model": "horse0",
+  "parts": {
+    "body": "changeling0",
+    "bodyextra": "changeling",
+    "cutieleft": "none",
+    "cutieright": "none",
+    "hair": "none",
+    "hairextra": "none",
+    "tail": "changeling",
+    "tailextra": "none",
+    "wings": "changeling",
+    "wingcolor": "transparent0",
+    "eyewhite": "eyewhite1",
+    "eye": "changeling0",
+    "mouth": "changeling",
+    "ear": "changeling",
+    "horn": "changeling",
+    "underwear": "none"
+  },
+  "colors": {
+    "body": {
+      "r": 102,
+      "g": 104,
+      "b": 104
+    },
+    "bodyextra": {
+      "r": 60,
+      "g": 62,
+      "b": 109
+    },
+    "cutieleft": {
+      "r": 184,
+      "g": 167,
+      "b": 52
+    },
+    "cutieright": {
+      "r": 104,
+      "g": 178,
+      "b": 196
+    },
+    "hair": {
+      "r": 0,
+      "g": 90,
+      "b": 170
+    },
+    "hairextra": {
+      "r": 36,
+      "g": 200,
+      "b": 230
+    },
+    "tail": {
+      "r": 76,
+      "g": 76,
+      "b": 76
+    },
+    "tailextra": {
+      "r": 41,
+      "g": 235,
+      "b": 14
+    },
+    "wings": {
+      "r": 161,
+      "g": 201,
+      "b": 161
+    },
+    "wingcolor": {
+      "r": 107,
+      "g": 255,
+      "b": 219
+    },
+    "eyewhite": {
+      "r": 146,
+      "g": 94,
+      "b": 155
+    },
+    "eye": {
+      "r": 100,
+      "g": 224,
+      "b": 202
+    },
+    "mouth": {
+      "r": 158,
+      "g": 44,
+      "b": 36
+    },
+    "ear": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "horn": {
+      "r": 47,
+      "g": 47,
+      "b": 47
+    },
+    "underwear": {
+      "r": 25,
+      "g": 25,
+      "b": 25
+    }
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "code": "horse0",
+  "_credit": "tenklop, xeth",
+  "guiLayout": [
+    ["body", "bodyextra"],
+    ["cutieleft", "cutieright"],
+    ["wings", "wingcolor"],
+    ["tail", "tailextra"],
+    ["eye", "eyewhite"],
+    ["mouth"],
+    ["hair", "hairextra"],
+    ["ear"],
+    ["horn"],
+    ["voicetype", "voicepitch"],
+    ["underwear"]
+  ],
+  "guiRenderHeightOffset": -70,
+  "eyeHeight": 1.3,
+  "hitboxSize": { "x": 0.6, "y": 1.5 },
+  "jointHead": "b_Head",
+  "jointNeck": "b_NeckLower",
+  "jointTorsoUpper": "b_TorsoUpper",
+  "jointTorsoLower": "b_TorsoLower",
+  "jointLegUpperL": "b_LegUpperL",
+  "jointLegUpperR": "b_LegUpperR",
+  "shapePath": "kemono:shapes/entity/horse/",
+  "model": "kemono:entity/horse/main/horse0",
+  "texturePath": "kemono:textures/entity/horse/",
+  "scaleparts": [
+    { "code": "body",  "target": "b_Root",  "min": 0.6, "max": 1.4, "isMain": true },
+    { "code": "head",  "target": "b_Head",  "min": 0.9, "max": 1.4 },
+    { "code": "wingL", "target": "b_WingL", "min": 0.8, "max": 1.2 },
+    { "code": "wingR", "target": "b_WingR", "min": 0.8, "max": 1.2 },
+    { "code": "tail",  "target": "b_Tail0", "min": 0.8, "max": 1.2 }
+  ],
+  "skinparts": [
+    {
+      "code": "body",
+      "renderOrder": 100,
+      "type": "texture",
+      "textureTarget": "main",
+      "textureTargetWidth": 128,
+      "textureTargetHeight": 128,
+      "textureBlendOverlay": false,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "skin0", "texture": "kemono:entity/horse/body/horse0" },
+        { "code": "changeling0", "texture": "kemono:entity/horse/body/changeling0" }
+      ]
+    },
+
+    {
+      "code": "bodyextra",
+      "renderOrder": 200,
+      "type": "texture",
+      "textureTarget": "main",
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "kirin", "texture": "kemono:entity/horse/bodyextra/kirin" },
+        { "code": "zecora", "texture": "kemono:entity/horse/bodyextra/zecora" },
+        { "code": "batlight", "texture": "kemono:entity/horse/bodyextra/batskeletonlight" },
+        { "code": "batdark", "texture": "kemono:entity/horse/bodyextra/batskeletondark" },
+        { "code": "changeling", "texture": "kemono:entity/horse/bodyextra/changeling" },
+        { "code": "fjord", "texture": "kemono:entity/horse/bodyextra/fjord" },
+        { "code": "paint", "texture": "kemono:entity/horse/bodyextra/paint" },
+        { "code": "siamese", "texture": "kemono:entity/horse/bodyextra/siamese" },
+        { "code": "speckles", "texture": "kemono:entity/horse/bodyextra/speckles" },
+        { "code": "splatter", "texture": "kemono:entity/horse/bodyextra/splatter" },
+        { "code": "stripe", "texture": "kemono:entity/horse/bodyextra/stripe" },
+        { "code": "unders", "texture": "kemono:entity/horse/bodyextra/unders" }
+      ]
+    },
+    
+    {
+      "code": "cutieleft",
+      "renderOrder": 300,
+      "type": "shape",
+      "useDropDown": true,
+      "texture": "kemono:entity/common/emblemblank",
+      "textureTarget": "cutiemark",
+      "textureTargetWidth": 32,
+      "textureTargetHeight": 32,
+      "textureBlendOverlay": false,
+      "usePainting": true,
+      "paintingName": "cutiemark",
+      "paintingSize": 32,
+      "altClothedRequirement": [
+        "LowerBody",
+        "UpperBody",
+        "UpperBodyOver",
+        "ArmorBody",
+        "ArmorLegs"
+      ],
+      "shapeTemplate": "kemono:entity/horse/skinparts/cutiemark/mark-{code}",
+      "variants": [
+        { "code": "left", "altClothed": "none" },
+        { "code": "leftmirrored", "altClothed": "none" },
+        { "code": "none", "skip": true }
+      ]
+    },
+    
+    {
+      "code": "cutieright",
+      "renderOrder": 400,
+      "type": "shape",
+      "useDropDown": true,
+      "texture": "kemono:entity/common/emblemblank",
+      "textureTarget": "cutiemark",
+      "textureTargetWidth": 32,
+      "textureTargetHeight": 32,
+      "textureBlendOverlay": false,
+      "usePainting": true,
+      "paintingName": "cutiemark",
+      "paintingSize": 32,
+      "altClothedRequirement": [
+        "LowerBody",
+        "UpperBody",
+        "UpperBodyOver",
+        "ArmorBody",
+        "ArmorLegs"
+      ],
+      "shapeTemplate": "kemono:entity/horse/skinparts/cutiemark/mark-{code}",
+      "variants": [
+        { "code": "right", "altClothed": "none" },
+        { "code": "rightmirrored", "altClothed": "none" },
+        { "code": "none", "skip": true }
+      ]
+    },
+
+    {
+      "code": "hair",
+      "renderOrder": 500,
+      "type": "shape",
+      "textureTarget": "hair",
+      "texture": "kemono:entity/horse/hair/hair",
+      "textureTargetWidth": 96,
+      "textureTargetHeight": 96,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/horse/skinparts/hair/hair-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "anonfilly" },
+        { "code": "chrysalis" },
+        { "code": "emoshy" },
+        { "code": "octavia" },
+        { "code": "trixie" },
+        { "code": "vinylscratch" },
+        { "code": "bigmac" },
+        { "code": "braeburn" },
+        { "code": "soarin" },
+        { "code": "applebottom" },
+        { "code": "carepackage" },
+        { "code": "balding" },
+        { "code": "afro" },
+        { "code": "combed" },
+        { "code": "dreadlocks" },
+        { "code": "indigenousbalding" },
+        { "code": "iroquois" },
+        { "code": "kniaz" },
+        { "code": "layered" },
+        { "code": "longflowing" },
+        { "code": "longwithstrands" },
+        { "code": "mediumlength-bangs" },
+        { "code": "messy" },
+        { "code": "messy2" },
+        { "code": "classic" },
+        { "code": "short" },
+        { "code": "short-parted" },
+        { "code": "shortspiky" },
+        { "code": "short-trimmed" },
+        { "code": "tonsure" }
+      ]
+    },
+
+    {
+      "code": "hairextra",
+      "renderOrder": 600,
+      "type": "shape",
+      "textureTarget": "hairextra",
+      "texture": "kemono:entity/horse/hair/hairextra",
+      "textureTargetWidth": 96,
+      "textureTargetHeight": 96,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/horse/skinparts/hairextra/hairextra-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "chrysalis" },
+        { "code": "emoshy" },
+        { "code": "vinylscratch" }
+      ]
+    },
+    
+    {
+      "code": "tail",
+      "renderOrder": 700,
+      "type": "shape",
+      "textureTarget": "tail",
+      "texture": "kemono:entity/horse/tail/horse-tail",
+      "textureTargetWidth": 64,
+      "textureTargetHeight": 64,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "useTransformSlider": true,
+      "shapeTemplate": "kemono:entity/horse/skinparts/tail/tail-{code}",
+      "variants": [
+        { "code": "horse0" },
+        { "code": "horse1" },
+        { "code": "horse2" },
+        { "code": "vinylscratch" },
+        { "code": "kirin" },
+        { "code": "changeling" }
+      ]
+    },
+
+    {
+      "code": "tailextra",
+      "renderOrder": 800,
+      "textureTarget": "tail",
+      "texture": "kemono:entity/horse/tail/horse-tailextra",
+      "textureTargetWidth": 64,
+      "textureTargetHeight": 64,
+      "textureRenderTo": { "x": 0, "y": 32 },
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/horse/skinparts/tailextra/tailextra-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "stripe0" },
+        { "code": "stripe1" },
+        { "code": "vinylscratch" }
+      ]
+    },
+
+    {
+      "code": "wings",
+      "renderOrder": 900,
+      "type": "shape",
+      "shapeTemplate": "kemono:entity/horse/skinparts/wings/wings-{code}",
+      "useDropDown": true,
+      "useColorSlider": false,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "pegasus" },
+        { "code": "bat" },
+        { "code": "changeling" },
+        { "code": "chrysalis" }
+      ]
+    },
+    
+    {
+      "code": "wingcolor",
+      "renderOrder": 1000,
+      "type": "texture",
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 15, "y": 25 },
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "colored", "texture": "kemono:entity/horse/wing/wingcolored" },
+        { "code": "gradient", "texture": "kemono:entity/horse/wing/winggradient" },
+        { "code": "transparent0", "texture": "kemono:entity/horse/wing/wingtransparent0" },
+        { "code": "transparent1", "texture": "kemono:entity/horse/wing/wingtransparent1" }
+      ]
+    },
+
+    {
+      "code": "eyewhite",
+      "renderOrder": 1100,
+      "type": "texture",
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 119, "y": 67 },
+      "useDropDown": true,
+      "useColorSlider": false,
+      "variants": [
+        { "code": "eyewhite0", "texture": "kemono:entity/common/eyewhite0" },
+        { "code": "eyewhite1", "texture": "kemono:entity/common/eyewhite1" },
+        { "code": "eyedark0", "texture": "kemono:entity/common/eyedark0" }
+      ]
+    },
+
+    {
+      "code": "eye",
+      "renderOrder": 1200,
+      "type": "shape",
+      "face": true,
+      "texture": "kemono:entity/common/eyecolor",
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 109, "y": 0 },
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/horse/skinparts/eye/eye-{code}",
+      "variants": [
+        { "code": "eye0" },
+        { "code": "eye1" },
+        { "code": "eye2" },
+        { "code": "eye3" },
+        { "code": "boomer" },
+        { "code": "derpy" },
+        { "code": "stallion" },
+        { "code": "changeling0" },
+        { "code": "sleep" },
+        { "code": "flustered" },
+        { "code": "happy" }
+      ]
+    },
+
+    {
+      "code": "mouth",
+      "renderOrder": 1300,
+      "type": "shape",
+      "texture": "kemono:entity/horse/mouth/mouth",
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 60, "y": 0 },
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/horse/skinparts/mouth/mouth-{code}",
+      "variants": [
+        { "code": "horse" },
+        { "code": "stallion" },
+        { "code": "bat" },
+        { "code": "changeling" }
+      ]
+    },
+
+    {
+      "code": "ear",
+      "renderOrder": 1400,
+      "type": "shape",
+      "textureTarget": "earextra",
+      "texture": "kemono:entity/horse/ear/earextra",
+      "textureTargetWidth": 32,
+      "textureTargetHeight": 32,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/horse/skinparts/ear/ear-{code}",
+      "variants": [
+        { "code": "horse" },
+        { "code": "bat" },
+        { "code": "changeling" },
+        { "code": "chrysalis" }
+      ]
+    },
+
+    {
+      "code": "horn",
+      "renderOrder": 1500,
+      "type": "shape",
+      "texture": "kemono:entity/horse/horn/horn",
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 0, "y": 44 },
+      "shapeTemplate": "kemono:entity/horse/skinparts/horn/horn-{code}",
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "unicorn" },
+        { "code": "unicornlong" },
+        { "code": "kirin" },
+        { "code": "changeling" },
+        { "code": "chrysalis" }
+      ]
+    },
+
+    {
+      "code": "underwear",
+      "renderOrder": 1600,
+      "type": "texture",
+      "textureTarget": "main",
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "sockssolid", "texture": "kemono:entity/horse/underwear/sockssolid" },
+        { "code": "socksstriped", "texture": "kemono:entity/horse/underwear/socksstriped" },
+        { "code": "sockssolidtorn", "texture": "kemono:entity/horse/underwear/sockssolidtorn" },
+        { "code": "socksstripedtorn", "texture": "kemono:entity/horse/underwear/socksstripedtorn" },
+        { "code": "socksstripedback", "texture": "kemono:entity/horse/underwear/socksstripedback" }
+      ]
+    },
+    
+    {
+      "code": "voicetype",
+      "type": "voice", 
+      "useDropDown": true,
+      "variants": [
+        { "code": "altoflute", "sound": "game:sounds/voice/altoflute" },
+        { "code": "harmonica", "sound": "game:sounds/voice/harmonica" },
+        { "code": "oboe", "sound": "game:sounds/voice/oboe" },
+        { "code": "clarinet", "sound": "game:sounds/voice/clarinet" },
+        { "code": "accordion", "sound": "game:sounds/voice/accordion" },
+        { "code": "trumpet", "sound": "game:sounds/voice/trumpet" },
+        { "code": "sax", "sound": "game:sounds/voice/sax" },
+        { "code": "tuba", "sound": "game:sounds/voice/tuba" }
+      ]
+    },
+    
+    {
+      "code": "voicepitch",
+      "type": "voice",
+      "useDropDown": true,
+      "variants": [
+        { "code": "verylow" },
+        { "code": "low" },
+        { "code": "medium" },
+        { "code": "high" }
+      ]
+    }
+  ],
+  "emotes": [
+    {
+      "code": ">_<",
+      "name": "&gt;_&lt;",
+      "skinparts": {
+        "eye": "flustered"
+      },
+      "icon": "kemono:emote/flustered"
+    },
+    {
+      "code": ">_o",
+      "name": "&gt;_o",
+      "skinparts": {
+        "eye": "flustered"
+      },
+      "skinpartFilter": [ "b_EyeR" ],
+      "icon": "kemono:emote/flusteredleft"
+    },
+    {
+      "code": "o_<",
+      "name": "o_&lt;",
+      "skinparts": {
+        "eye": "flustered"
+      },
+      "skinpartFilter": [ "b_EyeL" ],
+      "icon": "kemono:emote/flusteredright"
+    },
+    {
+      "code": "^_^",
+      "name": "^_^",
+      "skinparts": {
+        "eye": "happy"
+      },
+      "icon": "kemono:emote/happy"
+    },
+    {
+      "code": "^_o",
+      "name": "^_o",
+      "skinparts": {
+        "eye": "happy"
+      },
+      "skinpartFilter": [ "b_EyeR" ],
+      "icon": "kemono:emote/happyleft"
+    },
+    {
+      "code": "o_^",
+      "name": "o_^",
+      "skinparts": {
+        "eye": "happy"
+      },
+      "skinpartFilter": [ "b_EyeL" ],
+      "icon": "kemono:emote/happyright"
+    },
+    {
+      "code": "-_-",
+      "name": "-_-",
+      "skinparts": {
+        "eye": "sleep"
+      },
+      "icon": "kemono:emote/sleep"
+    },
+    {
+      "code": "-_o",
+      "name": "-_o",
+      "skinparts": {
+        "eye": "sleep"
+      },
+      "skinpartFilter": [ "b_EyeR" ],
+      "icon": "kemono:emote/sleepleft"
+    },
+    {
+      "code": "o_-",
+      "name": "o_-",
+      "skinparts": {
+        "eye": "sleep"
+      },
+      "skinpartFilter": [ "b_EyeL" ],
+      "icon": "kemono:emote/sleepright"
+    },
+    {
+      "code": "mouthopen",
+      "name": "Mouth Open",
+      "animation": "mouthopen"
+    },
+    {
+      "code": "sit",
+      "name": "Sit",
+      "animation": "sitemote"
+    },
+    {
+      "code": "stand",
+      "name": "Stand",
+      "animation": "stand"
+    },
+    {
+      "code": "raisehooves",
+      "name": "Raise Hooves",
+      "animation": "raisehooves"
+    },
+    {
+      "code": "shake",
+      "name": "Shake (Eek!)",
+      "animation": "shake"
+    },
+    {
+      "code": "caramelldansen",
+      "name": "Caramelldansen",
+      "animation": "caramelldansen"
+    },
+    {
+      "code": "dance0",
+      "name": "Dance Hardstyle",
+      "animation": "dancehardstyle"
+    },
+    {
+      "code": "dance1",
+      "name": "Dance Chillout",
+      "animation": "dancechillout"
+    },
+    {
+      "code": "dance2",
+      "name": "Dance Hips",
+      "animation": "dancehips"
+    },
+      {
+      "code": "lounge",
+      "name": "Lounge",
+      "animation": "lounge"
+    },
+    {
+      "code": "lounge2",
+      "name": "Lounge Flat",
+      "animation": "lounge2"
+    },
+    {
+      "code": "lounge3",
+      "name": "Lounge Arm",
+      "animation": "lounge3"
+    },
+    {
+      "code": "loungeback",
+      "name": "Lounge Back",
+      "animation": "loungeback"
+    },
+    {
+      "code": "loungeback2",
+      "name": "Lounge Back 2",
+      "animation": "loungeback2"
+    },
+    {
+      "code": "wavenew",
+      "name": "Wave",
+      "animation": "wavenew"
+    },
+    {
+      "code": "brohoofright",
+      "name": "Brohoof (right)",
+      "animation": "brohoofright"
+    },
+    {
+      "code": "brohoofleft",
+      "name": "Brohoof (left)",
+      "animation": "brohoofleft"
+    },
+    {
+      "code": "hangbat",
+      "name": "Hang (bat)",
+      "animation": "hangbat"
+    }
+  ],
+  "animationRemappings": {
+    "Head": "b_Head",
+    "Neck": "b_Neck",
+    "UpperTorso": "b_TorsoUpper",
+    "LowerTorso": "b_TorsoLower",
+    "UpperArmR": "b_ArmUpperR",
+    "UpperArmL": "b_ArmUpperL",
+    "LowerArmR": "b_ArmLowerR",
+    "LowerArmL": "b_ArmLowerL",
+    "UpperFootR": "b_FootUpperR",
+    "UpperFootL": "b_FootUpperL",
+    "LowerFootR": "b_FootLowerR",
+    "LowerFootL": "b_FootLowerL"
+  },
+  "animationOverrides": [
+    {
+      "code": "walk",
+      "animationSpeed": 1.4
+    },
+    {
+      "code": "walk-fp",
+      "animationSpeed": 1.4
+    },
+    {
+      "code": "sprint",
+      "animationSpeed": 1.4,
+      "blendMode": "Average"
+    },
+    {
+      "code": "sprint-fp",
+      "animationSpeed": 1.4,
+      "blendMode": "Average"
+    },
+    {
+      "code": "land",
+      "animation": "land"
+    },
+    {
+      "code": "holdinglanternrighthand",
+      "animation": "holdinglanternrighthand",
+      "blendMode": "Add",
+      "elementWeight": {
+        "b_ArmUpperR": 100,
+        "b_ArmLowerR": 1000
+      },
+      "elementBlendMode": {
+        "b_ArmUpperR": "AddAverage",
+        "b_ArmLowerR": "AddAverage"
+      }
+    },
+    {
+      "code": "holdinglanternlefthand",
+      "animation": "holdinglanternlefthand",
+      "blendMode": "Add",
+      "elementWeight": {
+        "b_ArmUpperL": 100,
+        "b_ArmLowerL": 1000
+      },
+      "elementBlendMode": {
+        "b_ArmUpperL": "AddAverage",
+        "b_ArmLowerL": "AddAverage"
+      }
+    },
+
+    {
+      "code": "shake",
+      "animation": "shake",
+      "blendMode": "Add",
+      "animationSpeed": 0.9,
+      "easeInSpeed": 50,
+      "easeOutSpeed": 50
+    },
+
+    {
+      "code": "stand",
+      "animation": "stand",
+      "blendMode": "Average",
+      "easeInSpeed": 2,
+      "easeOutSpeed": 5,
+      "elementWeight": {
+        "b_TorsoUpper": 10,
+        "b_TorsoLower": 10,
+        "b_NeckLower": 10,
+        "b_Neck": 10,
+        "b_Head": 10,
+        "b_ArmUpperL": 10,
+        "b_ArmUpperR": 10,
+        "b_LegUpperL": 10,
+        "b_LegLowerL": 10,
+        "b_LegUpperR": 10,
+        "b_LegLowerR": 10,
+        "b_Tail0": 10,
+        "b_Tail1": 10,
+        "b_Tail2": 10,
+        "b_Tail3": 10
+      }
+    },
+
+    {
+      "code": "caramelldansen",
+      "animation": "caramelldansen",
+      "blendMode": "Add",
+      "easeInSpeed": 10,
+      "easeOutSpeed": 10,
+      "elementWeight": {
+        "b_Tail0": 1000,
+        "b_Tail1": 1000,
+        "b_Tail2": 1000,
+        "b_Tail3": 1000,
+        "b_Tail4": 1000
+      },
+      "elementBlendMode": {
+        "b_Tail0": "AddAverage",
+        "b_Tail1": "AddAverage",
+        "b_Tail2": "AddAverage",
+        "b_Tail3": "AddAverage",
+        "b_Tail4": "AddAverage"
+      }
+    },
+
+    {
+      "code": "dancehips",
+      "animation": "dancehips",
+      "blendMode": "Add",
+      "easeInSpeed": 10,
+      "easeOutSpeed": 10,
+      "elementWeight": {
+        "b_Tail0": 1000,
+        "b_Tail1": 1000,
+        "b_Tail2": 1000,
+        "b_Tail3": 1000,
+        "b_Tail4": 1000
+      },
+      "elementBlendMode": {
+        "b_Tail0": "AddAverage",
+        "b_Tail1": "AddAverage",
+        "b_Tail2": "AddAverage",
+        "b_Tail3": "AddAverage",
+        "b_Tail4": "AddAverage"
+      }
+    },
+
+    {
+      "code": "mouthopen",
+      "animation": "mouthopen",
+      "blendMode": "Add",
+      "easeInSpeed": 20,
+      "easeOutSpeed": 15
+    },
+
+    {
+      "code": "dancehardstyle",
+      "animation": "dancehardstyle",
+      "blendMode": "Add",
+      "animationSpeed": 1.2
+    },
+    
+    {
+      "code": "dancechillout",
+      "animation": "dancechillout",
+      "blendMode": "Add",
+      "animationSpeed": 1.5
+    },
+    
+    {
+      "code": "loungeback",
+      "animation": "loungeback",
+      "blendMode": "Add",
+      "easeInSpeed": 8,
+      "easeOutSpeed": 5,
+      "elementWeight": {
+        "b_TorsoUpper": 100,
+        "b_TorsoLower": 100,
+        "b_Tail0": 100,
+        "b_Tail1": 100,
+        "b_Tail2": 100,
+        "b_Tail3": 100,
+        "b_Tail4": 100
+      },
+      "elementBlendMode": {
+        "b_TorsoUpper": "Average",
+        "b_TorsoLower": "Average",
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average"
+      }
+    },
+    
+    {
+      "code": "loungeback2",
+      "animation": "loungeback2",
+      "blendMode": "Add",
+      "easeInSpeed": 8,
+      "easeOutSpeed": 5,
+      "elementWeight": {
+        "b_TorsoUpper": 100,
+        "b_TorsoLower": 100,
+        "b_Tail0": 100,
+        "b_Tail1": 100,
+        "b_Tail2": 100,
+        "b_Tail3": 100,
+        "b_Tail4": 100
+      },
+      "elementBlendMode": {
+        "b_TorsoUpper": "Average",
+        "b_TorsoLower": "Average",
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average"
+      }
+    },
+    
+    {
+      "code": "hangbat",
+      "animation": "hangbat",
+      "blendMode": "Add",
+      "easeInSpeed": 8,
+      "easeOutSpeed": 5,
+      "elementWeight": {
+        "b_Tail0": 100,
+        "b_Tail1": 100,
+        "b_Tail2": 100,
+        "b_Tail3": 100,
+        "b_Tail4": 100
+      },
+      "elementBlendMode": {
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average"
+      }
+    }
+  ]
+}

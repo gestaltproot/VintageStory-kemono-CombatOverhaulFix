@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kemono", "kemono\kemono.csproj", "{E1CECB9B-EB53-4598-9D80-10A7EE06A619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{1AA7D6E6-8089-4F33-9686-FECDE9F2AD32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1CECB9B-EB53-4598-9D80-10A7EE06A619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CECB9B-EB53-4598-9D80-10A7EE06A619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CECB9B-EB53-4598-9D80-10A7EE06A619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CECB9B-EB53-4598-9D80-10A7EE06A619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA7D6E6-8089-4F33-9686-FECDE9F2AD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA7D6E6-8089-4F33-9686-FECDE9F2AD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA7D6E6-8089-4F33-9686-FECDE9F2AD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA7D6E6-8089-4F33-9686-FECDE9F2AD32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F450C0B-73BC-4D2A-AD02-F39EEA3A2C2B}
+	EndGlobalSection
+EndGlobal

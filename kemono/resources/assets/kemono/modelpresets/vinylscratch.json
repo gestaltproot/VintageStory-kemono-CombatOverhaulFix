@@ -1,0 +1,102 @@
+{
+  "model": "horse0",
+  "parts": {
+    "body": "skin0",
+    "bodyextra": "none",
+    "cutieleft": "markleft",
+    "cutieright": "markright",
+    "hair": "vinylscratch",
+    "hairextra": "vinylscratch",
+    "tail": "vinylscratch",
+    "tailextra": "vinylscratch",
+    "wings": "none",
+    "wingcolor": "none",
+    "eyewhite": "eyewhite1",
+    "eye": "eye3",
+    "mouth": "horse",
+    "ear": "horse",
+    "horn": "unicorn"
+  },
+  "colors": {
+    "body": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "bodyextra": {
+      "r": 35,
+      "g": 35,
+      "b": 35
+    },
+    "cutieleft": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "cutieright": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "hair": {
+      "r": 0,
+      "g": 90,
+      "b": 170
+    },
+    "hairextra": {
+      "r": 36,
+      "g": 200,
+      "b": 230
+    },
+    "tail": {
+      "r": 0,
+      "g": 90,
+      "b": 170
+    },
+    "tailextra": {
+      "r": 36,
+      "g": 200,
+      "b": 230
+    },
+    "wings": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "eyewhite": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "eye": {
+      "r": 255,
+      "g": 39,
+      "b": 141
+    },
+    "mouth": {
+      "r": 255,
+      "g": 100,
+      "b": 90
+    },
+    "ear": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "horn": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "mustache": {
+      "r": 0,
+      "g": 90,
+      "b": 170
+    },
+    "beard": {
+      "r": 0,
+      "g": 90,
+      "b": 170
+    }
+  }
+}

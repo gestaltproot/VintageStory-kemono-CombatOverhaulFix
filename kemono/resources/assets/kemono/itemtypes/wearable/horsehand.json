@@ -1,0 +1,115 @@
+{
+  "code": "clothes",
+  "class": "ItemWearable",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "hand"
+      ]
+    },
+    {
+      "code": "hand",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": [
+        "fishnet"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "@.*-(fishnet)": {
+      "base": "kemono:entity/horse/clothing/hand/hand-{hand}"
+    },
+    "*": {
+      "base": "kemono:entity/horse/clothing/hand/hand-{hand}"
+    }
+  },
+  "storageFlags": 128,
+  "attributesByType": {
+    "@.*-(fishnet)": {
+      "wearableAttachment": true,
+      "clothescategory": "hand",
+      "disableElements": [
+
+      ],
+      "warmth": 0.25,
+      "wearerEntityCode": "kemono:kemonoclothingattach"
+    },
+    "*": {
+      "clothescategory": "hand",
+      "disableElements": [
+
+      ],
+      "warmth": 0.25
+    }
+  },
+  "texturesByType": {
+    "@.*-(fishnet)": {
+      "seraph": { "base": "game:block/transparent" }
+    },
+    "*": {
+      "seraph": { "base": "kemono:entity/horse/clothing/{category}/{hand}" }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ]
+  },
+  "renderAlphaTest": -1,
+  "guiTransformByType": {
+    "@.*-(fishnet)": {
+      "translation": { "x": -0, "y": 9, "z": 0 },
+      "rotation": { "x": -75, "y": 76, "z": 3 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 3.5
+    },
+    "*": {
+      "translation": { "x": -0, "y": 9, "z": 0 },
+      "rotation": { "x": -75, "y": 76, "z": 3 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 3.5
+    }
+  },
+  "tpHandTransformByType": {
+    "@.*-(fishnet)": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    },
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    }
+  },
+  "fpHandTransformByType": {
+    "@.*-(fishnet)": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    },
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0.4 },
+      "rotation": { "x": 4, "y": -69, "z": -40 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.0
+    }
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0.4 },
+    "rotation": { "x": 4, "y": -69, "z": -40 },
+    "origin": { "x": 0, "y": 0, "z": 0 },
+    "scale": 1.0
+  }
+}

@@ -1,0 +1,918 @@
+{
+  "code": "kemono0",
+  "_credit": "xeth",
+  "guiLayout": [
+    ["body", "chest"],
+    ["bodyextra", "bodytattoo"],
+    ["bust"],
+    ["leg", "legtattoo"],
+    ["head", "head2"],
+    ["headtattoo"],
+    ["eye", "eye2"],
+    ["eyewhite"],
+    ["ear"],
+    ["ear2", "earinner"],
+    ["horn"],
+    ["hair", "hairextra"],
+    ["tail", "tail2"],
+    ["tailextra"],
+    ["mustache", "beard"],
+    ["underwear"],
+    ["voicetype", "voicepitch"]
+  ],
+  "eyeHeight": 1.7,
+  "hitboxSize": { "x": 0.6, "y": 1.85 },
+  "jointHead": "b_Head",
+  "jointNeck": "b_Neck",
+  "jointTorsoUpper": "b_TorsoUpper",
+  "jointTorsoLower": "b_TorsoLower",
+  "jointLegUpperL": "b_FootUpperL",
+  "jointLegUpperR": "b_FootUpperR",
+  "shapePath": "kemono:shapes/entity/kemono/",
+  "model": "kemono:entity/kemono/main/kemono0",
+  "texturePath": "kemono:textures/entity/kemono/",
+  "scaleparts": [
+    { "code": "body",       "target": "b_Root",       "min": 0.6, "max": 1.4, "isMain": true },
+    { "code": "torsoupper", "target": "b_TorsoUpper", "min": 0.8, "max": 1.2 },
+    { "code": "head",       "target": "b_Head",       "min": 0.8, "max": 1.2 },
+    { "code": "earL",       "target": "b_EarL",       "min": 0.5, "max": 1.5 },
+    { "code": "earR",       "target": "b_EarR",       "min": 0.5, "max": 1.5 },
+    { "code": "legL",       "target": "b_FootUpperL", "min": 0.8, "max": 1.2 },
+    { "code": "legR",       "target": "b_FootUpperR", "min": 0.8, "max": 1.2 },
+    { "code": "legLowerL",  "target": "b_FootLowerL", "min": 0.8, "max": 1.2 },
+    { "code": "legLowerR",  "target": "b_FootLowerR", "min": 0.8, "max": 1.2 },
+    { "code": "wingL",      "target": "b_WingL",      "min": 0.8, "max": 1.2 },
+    { "code": "wingR",      "target": "b_WingR",      "min": 0.8, "max": 1.2 },
+    { "code": "tail",       "target": "b_Tail0",      "min": 0.8, "max": 1.2 }
+  ],
+  "skinparts": [
+    {
+      "code": "body",
+      "renderOrder": 100,
+      "type": "texture",
+      "textureTarget": "main",
+      "textureTargetWidth": 128,
+      "textureTargetHeight": 128,
+      "textureBlendOverlay": false,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "skin0", "texture": "entity/kemono/body/kemono0" }
+      ]
+    },
+
+    {
+      "code": "chest",
+      "renderOrder": 200,
+      "type": "texture",
+      "textureTarget": "main",
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "chest0", "texture": "kemono:entity/kemono/chest/chest0" },
+        { "code": "chest1", "texture": "kemono:entity/kemono/chest/chest1" }
+      ]
+    },
+
+    {
+      "code": "bodyextra",
+      "renderOrder": 300,
+      "type": "texture",
+      "textureTarget": "main",
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "limbcolor0", "texture": "kemono:entity/kemono/bodyextra/limbcolor0" }
+      ]
+    },
+
+    {
+      "code": "bodytattoo",
+      "renderOrder": 400,
+      "type": "texture",
+      "useDropDown": true,
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 82, "y": 0 },
+      "usePainting": true,
+      "paintingName": "bodytattoo",
+      "paintingSize": 44,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "tattoo" }
+      ]
+    },
+
+    {
+      "code": "bust",
+      "renderOrder": 500,
+      "type": "shape",
+      "useDropDown": true,
+      "altClothedRequirement": [
+        "UpperBody",
+        "UpperBodyOver",
+        "Shoulder"
+      ],
+      "altArmoredRequirement": [
+        "ArmorBody"
+      ],
+      "textureTarget": "clothing",
+      "textureTargetWidth": 128,
+      "textureTargetHeight": 128,
+      "textureCopyFrom": "main",
+      "textureRenderTo": { "x": 64, "y": 0 },
+      "useClothingTexture": true,
+      "clothingTextures": [
+        "UpperBody",
+        "UpperBodyOver",
+        "Shoulder"
+      ],
+      "shapeTemplate": "kemono:entity/kemono/skinparts/bust/bust-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "hrt",   "altClothed": "hrtclothed",   "altArmored": "none" },
+        { "code": "a",     "altClothed": "aclothed",     "altArmored": "none" },
+        { "code": "b",     "altClothed": "bclothed",     "altArmored": "none" },
+        { "code": "c",     "altClothed": "cclothed",     "altArmored": "none" },
+        { "code": "d",     "altClothed": "dclothed",     "altArmored": "none" },
+        { "code": "dd",    "altClothed": "ddclothed",    "altArmored": "none" },
+        { "code": "anime", "altClothed": "animeclothed", "altArmored": "none" }
+      ]
+    },
+
+    {
+      "code": "leg",
+      "renderOrder": 600,
+      "type": "shape",
+      "useDropDown": true,
+      "useColorSlider": false,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/leg/leg-{code}",
+      "variants": [
+        { "code": "human0" },
+        { "code": "kemono0" },
+        { "code": "kemono1" },
+        { "code": "kemono2" }
+      ]
+    },
+
+    {
+      "code": "legtattoo",
+      "renderOrder": 700,
+      "type": "texture",
+      "useDropDown": true,
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 0, "y": 64 },
+      "usePainting": true,
+      "paintingName": "legtattoo",
+      "paintingSize": 64,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "tattoo" }
+      ]
+    },
+
+    {
+      "code": "tail",
+      "renderOrder": 800,
+      "type": "shape",
+      "textureTarget": "tail",
+      "texture": "kemono:entity/kemono/tail/kemono-tail",
+      "textureTargetWidth": 64,
+      "textureTargetHeight": 64,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/tail/tail-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "generic0" },
+        { "code": "generic1" },
+        { "code": "generic2" },
+        { "code": "generic3" },
+        { "code": "fox0" },
+        { "code": "fox1" },
+        { "code": "fox2" },
+        { "code": "lizard0" },
+        { "code": "lizard1" },
+        { "code": "dragon0" },
+        { "code": "shark0" }
+      ]
+    },
+
+    {
+      "code": "tail2",
+      "renderOrder": 900,
+      "type": "texture",
+      "textureTarget": "tail",
+      "textureRenderTo": { "x": 0, "y": 0 },
+      "useDropDown": false,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "tail2", "texture": "kemono:entity/kemono/tail/kemono-tail2" }
+      ]
+    },
+    
+    {
+      "code": "tailextra",
+      "renderOrder": 1000,
+      "type": "texture",
+      "textureTarget": "tail",
+      "textureRenderTo": { "x": 0, "y": 48 },
+      "useDropDown": false,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "tailextra", "texture": "kemono:entity/kemono/tail/kemono-tailextra" }
+      ]
+    },
+
+    {
+      "code": "head",
+      "renderOrder": 1100,
+      "type": "shape",
+      "textureTarget": "head",
+      "textureTargetWidth": 64,
+      "textureTargetHeight": 64,
+      "texture": "kemono:entity/kemono/head/head",
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/head/head-{code}",
+      "variants": [
+        { "code": "animu0" },
+        { "code": "fox0" },
+        { "code": "wolf0" },
+        { "code": "dragon0" }
+      ]
+    },
+
+    {
+      "code": "head2",
+      "renderOrder": 1200,
+      "type": "texture",
+      "textureTarget": "head",
+      "textureRenderTo": { "x": 32, "y": 0 },
+      "useDropDown": false,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "head2", "texture": "kemono:entity/kemono/head/head2" }
+      ]
+    },
+
+    {
+      "code": "headtattoo",
+      "renderOrder": 1300,
+      "type": "shape",
+      "useDropDown": true,
+      "texture": "kemono:entity/common/emblemblank",
+      "textureTarget": "headtattoo",
+      "textureTargetWidth": 32,
+      "textureTargetHeight": 32,
+      "usePainting": true,
+      "paintingName": "headtatoo",
+      "paintingSize": 32,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/headtattoo/headtattoo-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "tattoo" }
+      ]
+    },
+
+    {
+      "code": "ear",
+      "renderOrder": 1400,
+      "type": "shape",
+      "textureTarget": "head",
+      "useDropDown": true,
+      "useColorSlider": false,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/ear/ear-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "bunny0" },
+        { "code": "cat0" },
+        { "code": "dragon0" },
+        { "code": "fox0" },
+        { "code": "wolf0" },
+        { "code": "wolf1" }
+      ]
+    },
+
+    {
+      "code": "ear2",
+      "renderOrder": 1500,
+      "type": "texture",
+      "textureTarget": "head",
+      "textureRenderTo": { "x": 0, "y": 32 },
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "texture": "kemono:entity/kemono/head/ear-none", "skip": true },
+        { "code": "colored", "texture": "kemono:entity/kemono/head/ear-colored" },
+        { "code": "trim0", "texture": "kemono:entity/kemono/head/ear-trim0" },
+        { "code": "trim1", "texture": "kemono:entity/kemono/head/ear-trim1" },
+        { "code": "gradient0", "texture": "kemono:entity/kemono/head/ear-gradient0" },
+        { "code": "gradient1", "texture": "kemono:entity/kemono/head/ear-gradient1" }
+      ]
+    },
+
+    {
+      "code": "earinner",
+      "renderOrder": 1600,
+      "type": "texture",
+      "textureTarget": "head",
+      "textureRenderTo": { "x": 16, "y": 32 },
+      "useDropDown": false,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "earinner", "texture": "kemono:entity/kemono/head/earinner" }
+      ]
+    },
+
+    {
+      "code": "horn",
+      "renderOrder": 1700,
+      "type": "shape",
+      "textureTarget": "head",
+      "textureRenderTo": { "x": 32, "y": 32 },
+      "texture": "kemono:entity/kemono/head/horn",
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/horn/horn-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "oni0" },
+        { "code": "deer0" },
+        { "code": "dragon0" },
+        { "code": "dragon1" }
+      ]
+    },
+
+    {
+      "code": "eyewhite",
+      "renderOrder": 1800,
+      "type": "texture",
+      "textureTarget": "head",
+      "textureRenderTo": { "x": 0, "y": 56 },
+      "useDropDown": true,
+      "useColorSlider": false,
+      "variants": [
+        { "code": "eyewhite0", "texture": "kemono:entity/common/eyewhite0" },
+        { "code": "eyewhite1", "texture": "kemono:entity/common/eyewhite1" },
+        { "code": "eyedark0", "texture": "kemono:entity/common/eyedark0" }
+      ]
+    },
+
+    {
+      "code": "eye",
+      "renderOrder": 1900,
+      "type": "shape",
+      "face": true,
+      "texture": "kemono:entity/common/eyecolor16x8",
+      "textureTarget": "head",
+      "textureRenderTo": { "x": 16, "y": 56},
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/eye/eye-{code}",
+      "variants": [
+        { "code": "animu0" },
+        { "code": "animu1" },
+        { "code": "animu2" },
+        { "code": "animu3" },
+        { "code": "animu4" },
+        { "code": "animu5" },
+        { "code": "happy" },
+        { "code": "flustered" },
+        { "code": "sleep" }
+      ]
+    },
+
+    {
+      "code": "eye2",
+      "renderOrder": 2000,
+      "type": "texture",
+      "textureTarget": "head",
+      "textureRenderTo": { "x": 24, "y": 56},
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true, "texture": "kemono:entity/common/eyecolor" },
+        { "code": "eye2", "texture": "kemono:entity/common/eyecolor" }
+      ]
+    },
+
+    {
+      "code": "hair",
+      "renderOrder": 2100,
+      "type": "shape",
+      "textureTarget": "hair",
+      "texture": "kemono:entity/kemono/hair/hair",
+      "textureTargetWidth": 96,
+      "textureTargetHeight": 96,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/hair/hair-{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "furslop0" },
+        { "code": "furslop1" },
+        { "code": "furslop2" },
+        { "code": "furslop3" },
+        { "code": "furslop4" },
+        { "code": "astolfo" },
+        { "code": "balding", "shape": "game:entity/humanoid/seraphskinparts/hair-base/balding" },
+        { "code": "afro", "shape": "game:entity/humanoid/seraphskinparts/hair-base/afro" },
+        { "code": "combed", "shape": "game:entity/humanoid/seraphskinparts/hair-base/combed" },
+        { "code": "dreadlocks", "shape": "game:entity/humanoid/seraphskinparts/hair-base/dreadlocks" },
+        { "code": "indigenousbalding", "shape": "game:entity/humanoid/seraphskinparts/hair-base/indigenousbalding" },
+        { "code": "iroquois", "shape": "game:entity/humanoid/seraphskinparts/hair-base/iroquois" },
+        { "code": "kniaz", "shape": "game:entity/humanoid/seraphskinparts/hair-base/kniaz" },
+        { "code": "layered", "shape": "game:entity/humanoid/seraphskinparts/hair-base/layered" },
+        { "code": "longflowing", "shape": "game:entity/humanoid/seraphskinparts/hair-base/longflowing" },
+        { "code": "longwithstrands", "shape": "game:entity/humanoid/seraphskinparts/hair-base/longwithstrands" },
+        { "code": "mediumlengthbangs", "shape": "game:entity/humanoid/seraphskinparts/hair-base/mediumlengthbangs" },
+        { "code": "messy", "shape": "game:entity/humanoid/seraphskinparts/hair-base/messy" },
+        { "code": "messy2", "shape": "game:entity/humanoid/seraphskinparts/hair-base/messy2" },
+        { "code": "classic", "shape": "game:entity/humanoid/seraphskinparts/hair-base/classic" },
+        { "code": "short", "shape": "game:entity/humanoid/seraphskinparts/hair-base/short" },
+        { "code": "short-parted", "shape": "game:entity/humanoid/seraphskinparts/hair-base/short" },
+        { "code": "shortspiky", "shape": "game:entity/humanoid/seraphskinparts/hair-base/shortspiky" },
+        { "code": "shorttrimmed", "shape": "game:entity/humanoid/seraphskinparts/hair-base/shorttrimmed" },
+        { "code": "tonsure", "shape": "game:entity/humanoid/seraphskinparts/hair-base/tonsure" }
+      ]
+    },
+
+    {
+      "code": "hairextra",
+      "renderOrder": 2200,
+      "type": "shape",
+      "textureTarget": "hairextra",
+      "texture": "kemono:entity/kemono/hair/hairextra",
+      "textureTargetWidth": 96,
+      "textureTargetHeight": 96,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "game:entity/humanoid/seraphskinparts/hair-extra/{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "backbun" },
+        { "code": "braidedup" },
+        { "code": "elaboratestickbun" },
+        { "code": "headsidebraid" },
+        { "code": "largestickbun" },
+        { "code": "neatbraid" },
+        { "code": "classicponytail" },
+        { "code": "ponytail" },
+        { "code": "rolledbraidwithbun" },
+        { "code": "shortmessybraid" },
+        { "code": "sidebraids" },
+        { "code": "sidebuns" },
+        { "code": "siderolls" },
+        { "code": "snood" },
+        { "code": "thicklongfrenchbraid" },
+        { "code": "tiedback" },
+        { "code": "tieddreads" },
+        { "code": "tiedtopknot" },
+        { "code": "topbun" },
+        { "code": "topknot" },
+        { "code": "unkempt" },
+        { "code": "vikingtopbraid" }
+      ]
+    },
+
+    {
+      "code": "mustache",
+      "renderOrder": 2300,
+      "type": "shape",
+      "textureTarget": "facialhair",
+      "texture": "kemono:entity/kemono/hair/facialhair",
+      "textureTargetWidth": 96,
+      "textureTargetHeight": 96,
+      "useDropDown": true,
+      "useColorSlider": true,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/facialhair/{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "mst-line01-pencil" },
+        { "code": "mst-line05-seargent" },
+        { "code": "mst-line10-sheriff" },
+        { "code": "mst-line15-eccentric" },
+        { "code": "mst-line20-seagull" },
+        { "code": "mst-u01-horseshoe" },
+        { "code": "mst-u05-stirrups" },
+        { "code": "mst-walrus05-neat" },
+        { "code": "mst-walrus30-fat" },
+        { "code": "mst-whiskbroom" },
+        { "code": "mst-handlebar05-thin" }
+      ]
+    },
+
+    {
+      "code": "beard",
+      "renderOrder": 2400,
+      "type": "shape",
+      "textureTarget": "facialhair",
+      "textureTargetWidth": 96,
+      "textureTargetHeight": 96,
+      "useDropDown": true,
+      "useColorSlider": false,
+      "shapeTemplate": "kemono:entity/kemono/skinparts/facialhair/{code}",
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "brd-stubble" },
+        { "code": "brd-box05-anchor" },
+        { "code": "brd-box01-chincurtain" },
+        { "code": "brd-box07-ducktail" },
+        { "code": "brd-box10-short" },
+        { "code": "brd-box20-full" },
+        { "code": "brd-braid05-single" },
+        { "code": "brd-braid10-double" },
+        { "code": "brd-braid15-triple" },
+        { "code": "brd-chin01-mouche" },
+        { "code": "brd-chin05-chinpatch" },
+        { "code": "brd-chin10-chinpuff" },
+        { "code": "brd-chin15-goatee" },
+        { "code": "brd-chin20-goateehorns" },
+        { "code": "brd-full01-trimmedfull" },
+        { "code": "brd-full05-cleanfull" },
+        { "code": "brd-full10-shaggy" },
+        { "code": "brd-mut05-friendly" },
+        { "code": "brd-mut10-muttonchops" },
+        { "code": "brd-mut15-wildchops" },
+        { "code": "brd-side05-sideburns" },
+        { "code": "brd-side15-sidewhiskers" },
+        { "code": "brd-wisp10-wiseman" }
+      ]
+    },
+
+    {
+      "code": "underwear",
+      "renderOrder": 2500,
+      "type": "texture",
+      "textureTarget": "main",
+      "textureRenderTo": { "x": 0, "y": 0},
+      "useDropDown": true,
+      "useColorSlider": true,
+      "variants": [
+        { "code": "none", "skip": true },
+        { "code": "twopiece", "texture": "game:entity/humanoid/seraphskinparts/underwear/twopiece" },
+        { "code": "leotard", "texture": "game:entity/humanoid/seraphskinparts/underwear/leotard" },
+        { "code": "breeches", "texture": "game:entity/humanoid/seraphskinparts/underwear/breeches" },
+        { "code": "lowcut", "texture": "kemono:entity/kemono/underwear/lowcut" },
+        { "code": "socks", "texture": "kemono:entity/kemono/underwear/socks" }
+      ]
+    },
+
+    {
+      "code": "voicetype",
+      "type": "voice", 
+      "useDropDown": true,
+      "variants": [
+        { "code": "altoflute", "sound": "game:sounds/voice/altoflute" },
+        { "code": "harmonica", "sound": "game:sounds/voice/harmonica" },
+        { "code": "oboe", "sound": "game:sounds/voice/oboe" },
+        { "code": "clarinet", "sound": "game:sounds/voice/clarinet" },
+        { "code": "accordion", "sound": "game:sounds/voice/accordion" },
+        { "code": "trumpet", "sound": "game:sounds/voice/trumpet" },
+        { "code": "sax", "sound": "game:sounds/voice/sax" },
+        { "code": "tuba", "sound": "game:sounds/voice/tuba" }
+      ]
+    },
+    
+    {
+      "code": "voicepitch",
+      "type": "voice",
+      "useDropDown": true,
+      "variants": [
+        { "code": "verylow" },
+        { "code": "low" },
+        { "code": "medium" },
+        { "code": "high" }
+      ]
+    }
+  ],
+  "emotes": [
+    {
+      "code": ">_<",
+      "name": "&gt;_&lt;",
+      "skinparts": {
+        "eye": "flustered"
+      },
+      "icon": "kemono:emote/flustered"
+    },
+    {
+      "code": ">_o",
+      "name": "&gt;_o",
+      "skinparts": {
+        "eye": "flustered"
+      },
+      "skinpartFilter": [ "b_EyeR" ],
+      "icon": "kemono:emote/flusteredleft"
+    },
+    {
+      "code": "o_<",
+      "name": "o_&lt;",
+      "skinparts": {
+        "eye": "flustered"
+      },
+      "skinpartFilter": [ "b_EyeL" ],
+      "icon": "kemono:emote/flusteredright"
+    },
+    {
+      "code": "^_^",
+      "name": "^_^",
+      "skinparts": {
+        "eye": "happy"
+      },
+      "icon": "kemono:emote/happy"
+    },
+    {
+      "code": "^_o",
+      "name": "^_o",
+      "skinparts": {
+        "eye": "happy"
+      },
+      "skinpartFilter": [ "b_EyeR" ],
+      "icon": "kemono:emote/happyleft"
+    },
+    {
+      "code": "o_^",
+      "name": "o_^",
+      "skinparts": {
+        "eye": "happy"
+      },
+      "skinpartFilter": [ "b_EyeL" ],
+      "icon": "kemono:emote/happyright"
+    },
+    {
+      "code": "-_-",
+      "name": "-_-",
+      "skinparts": {
+        "eye": "sleep"
+      },
+      "icon": "kemono:emote/sleep"
+    },
+    {
+      "code": "-_o",
+      "name": "-_o",
+      "skinparts": {
+        "eye": "sleep"
+      },
+      "skinpartFilter": [ "b_EyeR" ],
+      "icon": "kemono:emote/sleepleft"
+    },
+    {
+      "code": "o_-",
+      "name": "o_-",
+      "skinparts": {
+        "eye": "sleep"
+      },
+      "skinpartFilter": [ "b_EyeL" ],
+      "icon": "kemono:emote/sleepright"
+    },
+    {
+      "code": "pose",
+      "name": "Pose",
+      "animation": "pose"
+    },
+    {
+      "code": "pose2",
+      "name": "Pose 2",
+      "animation": "pose2"
+    },
+    {
+      "code": "pose3",
+      "name": "Pose 3",
+      "animation": "pose3"
+    },
+    {
+      "code": "armsonblock",
+      "name": "Arms on Block",
+      "animation": "armsonblock"
+    },
+    {
+      "code": "armsheadrest",
+      "name": "Arms Head Rest",
+      "animation": "armsheadrest"
+    },
+    {
+      "code": "armsheadrest2",
+      "name": "Arms Head Rest 2",
+      "animation": "armsheadrest2"
+    },
+    {
+      "code": "caramelldansen",
+      "name": "Caramelldansen",
+      "animation": "caramelldansen"
+    },
+    {
+      "code": "lounge",
+      "name": "Lounge",
+      "animation": "lounge"
+    },
+    {
+      "code": "layback",
+      "name": "Lay Back",
+      "animation": "layback"
+    },
+    {
+      "code": "layback2",
+      "name": "Lay Back 2",
+      "animation": "layback2"
+    },
+    {
+      "code": "laybelly",
+      "name": "Lay Belly",
+      "animation": "laybelly"
+    },
+    {
+      "code": "laybelly2",
+      "name": "Lay Back 2",
+      "animation": "laybelly2"
+    }
+  ],
+  "animationRemappings": {
+    "Head": "b_Head",
+    "Neck": "b_Neck",
+    "UpperTorso": "b_TorsoUpper",
+    "LowerTorso": "b_TorsoLower",
+    "UpperArmR": "b_ArmUpperR",
+    "UpperArmL": "b_ArmUpperL",
+    "LowerArmR": "b_ArmLowerR",
+    "LowerArmL": "b_ArmLowerL",
+    "UpperFootR": "b_FootUpperR",
+    "UpperFootL": "b_FootUpperL",
+    "LowerFootR": "b_FootLowerR",
+    "LowerFootL": "b_FootLowerL"
+  },
+  "animationOverrides": [
+    {
+      "code": "caramelldansen",
+      "animation": "caramelldansen",
+      "blendMode": "Add",
+      "elementWeight": {
+        "b_Tail0": 1000,
+        "b_Tail1": 1000,
+        "b_Tail2": 1000,
+        "b_Tail3": 1000,
+        "b_Tail4": 1000,
+        "b_Tail5": 1000
+      },
+      "elementBlendMode": {
+        "b_Tail0": "AddAverage",
+        "b_Tail1": "AddAverage",
+        "b_Tail2": "AddAverage",
+        "b_Tail3": "AddAverage",
+        "b_Tail4": "AddAverage",
+        "b_Tail5": "AddAverage"
+      }
+    },
+
+    {
+      "code": "holdriflerighthand",
+      "animation": "holdriflerighthand",
+      "elementWeight": {
+        "b_ArmUpperR": 1000,
+        "b_ArmLowerR": 1000,
+        "b_ArmUpperL": 1000,
+        "b_ArmLowerL": 1000
+      },
+      "elementBlendMode": {
+        "b_ArmUpperR": "AddAverage",
+        "b_ArmLowerR": "AddAverage",
+        "b_ArmUpperL": "AddAverage",
+        "b_ArmLowerL": "AddAverage"
+      }
+    },
+    {
+      "code": "holdriflelefthand",
+      "animation": "holdriflelefthand",
+      "elementWeight": {
+        "b_ArmUpperR": 20,
+        "b_ArmLowerR": 20
+      }
+    },
+
+    {
+      "code": "lounge",
+      "animation": "lounge",
+      "blendMode": "Add",
+      "easeInSpeed": 8,
+      "easeOutSpeed": 5,
+      "elementWeight": {
+        "b_Tail0": 10,
+        "b_Tail1": 10,
+        "b_Tail2": 10,
+        "b_Tail3": 10,
+        "b_Tail4": 10
+      },
+      "elementBlendMode": {
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average"
+      }
+    },
+    {
+      "code": "layback",
+      "animation": "layback",
+      "blendMode": "Add",
+      "easeInSpeed": 4,
+      "easeOutSpeed": 10,
+      "elementWeight": {
+        "b_TorsoUpper": 100,
+        "b_TorsoLower": 100,
+        "b_Tail0": 100,
+        "b_Tail1": 100,
+        "b_Tail2": 100,
+        "b_Tail3": 100,
+        "b_Tail4": 100
+      },
+      "elementBlendMode": {
+        "b_TorsoUpper": "Average",
+        "b_TorsoLower": "Average",
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average",
+        "b_Tail5": "Average"
+      }
+    },
+    {
+      "code": "layback2",
+      "animation": "layback2",
+      "blendMode": "Add",
+      "easeInSpeed": 4,
+      "easeOutSpeed": 10,
+      "elementWeight": {
+        "b_TorsoUpper": 100,
+        "b_TorsoLower": 100,
+        "b_ArmUpperR": 10,
+        "b_ArmLowerR": 10,
+        "b_ArmUpperL": 10,
+        "b_ArmLowerL": 10,
+        "b_Tail0": 100,
+        "b_Tail1": 100,
+        "b_Tail2": 100,
+        "b_Tail3": 100,
+        "b_Tail4": 100,
+        "b_Tail5": 100
+      },
+      "elementBlendMode": {
+        "b_TorsoUpper": "Average",
+        "b_TorsoLower": "Average",
+        "b_ArmUpperR": "Average",
+        "b_ArmLowerR": "Average",
+        "b_ArmUpperL": "Average",
+        "b_ArmLowerL": "Average",
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average",
+        "b_Tail5": "Average"
+      }
+    },
+    {
+      "code": "laybelly",
+      "animation": "laybelly",
+      "blendMode": "Add",
+      "easeInSpeed": 10,
+      "easeOutSpeed": 4,
+      "elementWeight": {
+        "b_Tail0": 10,
+        "b_Tail1": 10,
+        "b_Tail2": 10,
+        "b_Tail3": 10,
+        "b_Tail4": 10
+      },
+      "elementBlendMode": {
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average"
+      }
+    },
+    {
+      "code": "laybelly2",
+      "animation": "laybelly2",
+      "blendMode": "Add",
+      "easeInSpeed": 10,
+      "easeOutSpeed": 4,
+      "elementWeight": {
+        "b_Tail0": 10,
+        "b_Tail1": 10,
+        "b_Tail2": 10,
+        "b_Tail3": 10,
+        "b_Tail4": 10
+      },
+      "elementBlendMode": {
+        "b_Tail0": "Average",
+        "b_Tail1": "Average",
+        "b_Tail2": "Average",
+        "b_Tail3": "Average",
+        "b_Tail4": "Average"
+      }
+    }
+  ]
+}

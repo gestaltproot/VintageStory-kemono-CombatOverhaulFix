@@ -1,0 +1,20 @@
+[ 
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "replace",
+    "path": "/client/renderer",
+    "value": "KemonoPlayerShape"
+  },
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "replace",
+    "path": "/client/behaviors/7",
+    "value": { "code": "kemonoskinnable" }
+  },
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "replace",
+    "path": "/server/behaviors/11",
+    "value": { "code": "kemonoskinnable" }
+  }
+]

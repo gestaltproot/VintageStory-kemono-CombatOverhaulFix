@@ -1,0 +1,146 @@
+{
+  "model": "kemono0",
+  "parts": {
+    "body": "skin0",
+    "bust": "none",
+    "leg": "human0",
+    "chest": "none",
+    "bodyextra": "none",
+    "tail": "none",
+    "tail2": "tail2",
+    "tailextra": "tailextra",
+    "head": "animu0",
+    "head2": "head2",
+    "headtattoo": "none",
+    "ear": "none",
+    "ear2": "none",
+    "earinner": "earinner",
+    "horn": "none",
+    "eyewhite": "eyewhite1",
+    "eye": "animu0",
+    "eye2": "none",
+    "hair": "astolfo",
+    "hairextra": "none",
+    "mustache": "none",
+    "beard": "none",
+    "underwear": "none"
+  },
+  "scale": {},
+  "colors": {
+    "body": {
+      "r": 255,
+      "g": 225,
+      "b": 220
+    },
+    "bust": {
+      "r": 255,
+      "g": 225,
+      "b": 220
+    },
+    "leg": {
+      "r": 255,
+      "g": 225,
+      "b": 220
+    },
+    "chest": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "bodyextra": {
+      "r": 255,
+      "g": 225,
+      "b": 220
+    },
+    "tail": {
+      "r": 255,
+      "g": 225,
+      "b": 220
+    },
+    "tail2": {
+      "r": 255,
+      "g": 250,
+      "b": 255
+    },
+    "tailextra": {
+      "r": 255,
+      "g": 225,
+      "b": 220
+    },
+    "head": {
+      "r": 199,
+      "g": 203,
+      "b": 203
+    },
+    "head2": {
+      "r": 254,
+      "g": 255,
+      "b": 255
+    },
+    "headtattoo": {
+      "r": 82,
+      "g": 187,
+      "b": 93
+    },
+    "ear": {
+      "r": 255,
+      "g": 163,
+      "b": 175
+    },
+    "ear2": {
+      "r": 255,
+      "g": 225,
+      "b": 225
+    },
+    "earinner": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "horn": {
+      "r": 80,
+      "g": 80,
+      "b": 80
+    },
+    "eyewhite": {
+      "r": 235,
+      "g": 235,
+      "b": 235
+    },
+    "eye": {
+      "r": 207,
+      "g": 121,
+      "b": 193
+    },
+    "eye2": {
+      "r": 26,
+      "g": 219,
+      "b": 189
+    },
+    "hair": {
+      "r": 255,
+      "g": 163,
+      "b": 175
+    },
+    "hairextra": {
+      "r": 125,
+      "g": 125,
+      "b": 125
+    },
+    "mustache": {
+      "r": 255,
+      "g": 163,
+      "b": 175
+    },
+    "beard": {
+      "r": 255,
+      "g": 163,
+      "b": 175
+    },
+    "underwear": {
+      "r": 50,
+      "g": 50,
+      "b": 50
+    }
+  }
+}

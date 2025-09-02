@@ -1,0 +1,13 @@
+{
+    "code": "kemonoclothingattach",
+    "class": "EntityKemonoClothingAttach",
+    "variantgroups": [],
+    "client": {
+        "renderer": "Shape",
+        "shape": { "base": "kemono:entity/bones" },
+        "behaviors": []
+    },
+    "server": {
+        "behaviors": []
+    }
+}

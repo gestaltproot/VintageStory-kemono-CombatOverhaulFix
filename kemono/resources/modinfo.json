@@ -1,0 +1,17 @@
+{
+	"type": "code",
+	"name": "kemono",
+	"modid": "kemono",
+	"version": "0.1.7",
+	
+	"description" : "man made horrors beyond your comprehension",
+	"website": "https://gitlab.com/xeth/vintagestory-kemono",
+	"authors": [ "xeth" ],
+
+	"requiredOnClient": true,
+	"requiredOnServer": true,
+
+	"dependencies": {
+		"game": "1.21.0"
+	}
+}
