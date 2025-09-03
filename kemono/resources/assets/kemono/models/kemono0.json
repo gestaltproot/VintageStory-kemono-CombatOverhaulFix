@@ -24,8 +24,8 @@
   "hitboxSize": { "x": 0.6, "y": 1.85 },
   "jointHead": "b_Head",
   "jointNeck": "b_Neck",
-  "jointTorsoUpper": "b_TorsoUpper",
-  "jointTorsoLower": "b_TorsoLower",
+  "jointTorsoUpper": "UpperTorso",
+  "jointTorsoLower": "LowerTorso",
   "jointLegUpperL": "b_FootUpperL",
   "jointLegUpperR": "b_FootUpperR",
   "shapePath": "kemono:shapes/entity/kemono/",
@@ -33,7 +33,7 @@
   "texturePath": "kemono:textures/entity/kemono/",
   "scaleparts": [
     { "code": "body",       "target": "b_Root",       "min": 0.6, "max": 1.4, "isMain": true },
-    { "code": "torsoupper", "target": "b_TorsoUpper", "min": 0.8, "max": 1.2 },
+    { "code": "torsoupper", "target": "UpperTorso", "min": 0.8, "max": 1.2 },
     { "code": "head",       "target": "b_Head",       "min": 0.8, "max": 1.2 },
     { "code": "earL",       "target": "b_EarL",       "min": 0.5, "max": 1.5 },
     { "code": "earR",       "target": "b_EarR",       "min": 0.5, "max": 1.5 },
@@ -731,12 +731,12 @@
   "animationRemappings": {
     "Head": "b_Head",
     "Neck": "b_Neck",
-    "UpperTorso": "b_TorsoUpper",
-    "LowerTorso": "b_TorsoLower",
-    "UpperArmR": "b_ArmUpperR",
-    "UpperArmL": "b_ArmUpperL",
-    "LowerArmR": "b_ArmLowerR",
-    "LowerArmL": "b_ArmLowerL",
+    "UpperTorso": "UpperTorso",
+    "LowerTorso": "LowerTorso",
+    "UpperArmR": "UpperArmR",
+    "UpperArmL": "UpperArmL",
+    "LowerArmR": "LowerArmR",
+    "LowerArmL": "LowerArmL",
     "UpperFootR": "b_FootUpperR",
     "UpperFootL": "b_FootUpperL",
     "LowerFootR": "b_FootLowerR",
@@ -769,24 +769,24 @@
       "code": "holdriflerighthand",
       "animation": "holdriflerighthand",
       "elementWeight": {
-        "b_ArmUpperR": 1000,
-        "b_ArmLowerR": 1000,
-        "b_ArmUpperL": 1000,
-        "b_ArmLowerL": 1000
+        "UpperArmR": 1000,
+        "LowerArmR": 1000,
+        "UpperArmL": 1000,
+        "LowerArmL": 1000
       },
       "elementBlendMode": {
-        "b_ArmUpperR": "AddAverage",
-        "b_ArmLowerR": "AddAverage",
-        "b_ArmUpperL": "AddAverage",
-        "b_ArmLowerL": "AddAverage"
+        "UpperArmR": "AddAverage",
+        "LowerArmR": "AddAverage",
+        "UpperArmL": "AddAverage",
+        "LowerArmL": "AddAverage"
       }
     },
     {
       "code": "holdriflelefthand",
       "animation": "holdriflelefthand",
       "elementWeight": {
-        "b_ArmUpperR": 20,
-        "b_ArmLowerR": 20
+        "UpperArmR": 20,
+        "LowerArmR": 20
       }
     },
 
@@ -818,8 +818,8 @@
       "easeInSpeed": 4,
       "easeOutSpeed": 10,
       "elementWeight": {
-        "b_TorsoUpper": 100,
-        "b_TorsoLower": 100,
+        "UpperTorso": 100,
+        "LowerTorso": 100,
         "b_Tail0": 100,
         "b_Tail1": 100,
         "b_Tail2": 100,
@@ -827,8 +827,8 @@
         "b_Tail4": 100
       },
       "elementBlendMode": {
-        "b_TorsoUpper": "Average",
-        "b_TorsoLower": "Average",
+        "UpperTorso": "Average",
+        "LowerTorso": "Average",
         "b_Tail0": "Average",
         "b_Tail1": "Average",
         "b_Tail2": "Average",
@@ -844,12 +844,12 @@
       "easeInSpeed": 4,
       "easeOutSpeed": 10,
       "elementWeight": {
-        "b_TorsoUpper": 100,
-        "b_TorsoLower": 100,
-        "b_ArmUpperR": 10,
-        "b_ArmLowerR": 10,
-        "b_ArmUpperL": 10,
-        "b_ArmLowerL": 10,
+        "UpperTorso": 100,
+        "LowerTorso": 100,
+        "UpperArmR": 10,
+        "LowerArmR": 10,
+        "UpperArmL": 10,
+        "LowerArmL": 10,
         "b_Tail0": 100,
         "b_Tail1": 100,
         "b_Tail2": 100,
@@ -858,12 +858,12 @@
         "b_Tail5": 100
       },
       "elementBlendMode": {
-        "b_TorsoUpper": "Average",
-        "b_TorsoLower": "Average",
-        "b_ArmUpperR": "Average",
-        "b_ArmLowerR": "Average",
-        "b_ArmUpperL": "Average",
-        "b_ArmLowerL": "Average",
+        "UpperTorso": "Average",
+        "LowerTorso": "Average",
+        "UpperArmR": "Average",
+        "LowerArmR": "Average",
+        "UpperArmL": "Average",
+        "LowerArmL": "Average",
         "b_Tail0": "Average",
         "b_Tail1": "Average",
         "b_Tail2": "Average",

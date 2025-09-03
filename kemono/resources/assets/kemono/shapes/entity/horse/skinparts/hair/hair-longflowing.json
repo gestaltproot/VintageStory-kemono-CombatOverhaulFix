@@ -1,1 +1,369 @@
-{"editor":{"backDropShape":"entity/humanoid/seraph-hairless","allAngles":true,"entityTextureMode":true},"textureWidth":48,"textureHeight":48,"textureSizes":{"hair":[48,48],"birch":[16,16]},"textures":{"hair":"game:entity/humanoid/seraphskinparts/hair/lightgray"},"elements":[{"name":"Hair","stepParentName":"Head","from":[-0.33199999999999996,-4.096,-0.6479999999999999],"to":[6.628,5.764,5.732],"autoUnwrap":false,"uv":[2.0,2.5],"rotationOrigin":[3.3799999999999994,1.8199999999999998,2.6],"rotationZ":-1.0,"faces":{"north":{"texture":"#hair","uv":[41.5,0.0,47.5,8.5]},"east":{"texture":"#hair","uv":[37.0,8.5,42.5,17.0]},"south":{"texture":"#hair","uv":[31.5,0.0,37.5,8.5]},"west":{"texture":"#hair","uv":[42.5,14.5,48.0,23.0]},"up":{"texture":"#hair","uv":[24.0,0.0,29.5,6.0],"rotation":90}},"children":[{"name":"bangs","from":[0.0,0.0,0.0],"to":[1.16,1.16,1.16],"uv":[0.0,0.0],"faces":{},"children":[{"name":"StrandLeft1","from":[-0.23199999999999998,6.612,3.8279999999999994],"to":[-0.23199999999999998,8.932,5.568],"uv":[45.5,39.5],"rotationOrigin":[-0.23199999999999998,8.932,4.755999999999999],"rotationX":-30.0,"rotationY":-3.0,"rotationZ":-19.0,"faces":{"west":{"texture":"#hair","uv":[45.5,39.5,47.0,41.5]}},"children":[{"name":"StrandLeft2","from":[0.0,-2.32,0.0],"to":[0.0,0.0,1.7399999999999998],"uv":[44.0,42.0],"rotationOrigin":[0.0,0.0,0.8119999999999999],"rotationZ":50.0,"faces":{"west":{"texture":"#hair","uv":[44.0,42.0,45.5,44.0]}}}]},{"name":"StrandRight","from":[0.0,6.612,1.508],"to":[0.0,8.932,3.2479999999999998],"uv":[45.5,39.5],"rotationOrigin":[0.0,8.932,2.436],"rotationX":28.0,"rotationY":-3.0,"rotationZ":-20.0,"faces":{"west":{"texture":"#hair","uv":[45.5,39.5,47.0,41.5]}},"children":[{"name":"StrandRight2","from":[0.0,-2.32,0.0],"to":[0.0,0.0,1.7399999999999998],"uv":[44.0,42.0],"rotationOrigin":[0.0,0.0,0.8119999999999999],"rotationZ":60.0,"faces":{"west":{"texture":"#hair","uv":[44.0,42.0,45.5,44.0]}}}]}]},{"name":"HairExtension","from":[6.959999999999999,-8.12,0.0],"to":[6.959999999999999,0.0,6.38],"uv":[36.5,15.5],"rotationOrigin":[6.959999999999999,0.0,3.132],"rotationZ":-5.0,"faces":{"east":{"texture":"#hair","uv":[36.5,15.5,42.0,22.5]}}}]},{"name":"Hair tile upper part","stepParentName":"Head","from":[-0.6799999999999999,-2.82,-0.8799999999999999],"to":[6.859999999999999,5.88,6.08],"autoUnwrap":false,"uv":[3.0,9.0],"rotationOrigin":[3.3799999999999994,5.88,2.6],"faces":{"north":{"texture":"#hair","uv":[0.0,10.5,6.5,18.0]},"east":{"texture":"#hair","uv":[28.0,38.0,34.0,45.5]},"south":{"texture":"#hair","uv":[12.0,10.5,18.5,18.0]},"west":{"texture":"#hair","uv":[6.5,11.0,12.5,18.5]},"up":{"texture":"#hair","uv":[26.5,10.5,32.5,17.0],"rotation":90}}}]}
+{
+    "editor": {
+        "backDropShape": "entity/humanoid/seraph-hairless",
+        "allAngles": true,
+        "entityTextureMode": true
+    },
+    "textureWidth": 48,
+    "textureHeight": 48,
+    "textureSizes": {
+        "hair": [
+            48,
+            48
+        ],
+        "birch": [
+            16,
+            16
+        ]
+    },
+    "textures": {
+        "hair": "game:entity/humanoid/seraphskinparts/hair/lightgray"
+    },
+    "elements": [
+        {
+            "name": "Hair",
+            "stepParentName": "Head",
+            "from": [
+                -0.33199999999999996,
+                -4.096,
+                -0.6479999999999999
+            ],
+            "to": [
+                6.628,
+                5.764,
+                5.732
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                2.0,
+                2.5
+            ],
+            "rotationOrigin": [
+                3.3799999999999994,
+                1.8199999999999998,
+                2.6
+            ],
+            "rotationZ": -1.0,
+            "faces": {
+                "north": {
+                    "texture": "#hair",
+                    "uv": [
+                        41.5,
+                        0.0,
+                        47.5,
+                        8.5
+                    ]
+                },
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        37.0,
+                        8.5,
+                        42.5,
+                        17.0
+                    ]
+                },
+                "south": {
+                    "texture": "#hair",
+                    "uv": [
+                        31.5,
+                        0.0,
+                        37.5,
+                        8.5
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        42.5,
+                        14.5,
+                        48.0,
+                        23.0
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        24.0,
+                        0.0,
+                        29.5,
+                        6.0
+                    ],
+                    "rotation": 90
+                }
+            },
+            "children": [
+                {
+                    "name": "bangs",
+                    "from": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "to": [
+                        1.16,
+                        1.16,
+                        1.16
+                    ],
+                    "uv": [
+                        0.0,
+                        0.0
+                    ],
+                    "faces": {},
+                    "children": [
+                        {
+                            "name": "StrandLeft1",
+                            "from": [
+                                -0.23199999999999998,
+                                6.612,
+                                3.8279999999999994
+                            ],
+                            "to": [
+                                -0.23199999999999998,
+                                8.932,
+                                5.568
+                            ],
+                            "uv": [
+                                45.5,
+                                39.5
+                            ],
+                            "rotationOrigin": [
+                                -0.23199999999999998,
+                                8.932,
+                                4.755999999999999
+                            ],
+                            "rotationX": -30.0,
+                            "rotationY": -3.0,
+                            "rotationZ": -19.0,
+                            "faces": {
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        45.5,
+                                        39.5,
+                                        47.0,
+                                        41.5
+                                    ]
+                                }
+                            },
+                            "children": [
+                                {
+                                    "name": "StrandLeft2",
+                                    "from": [
+                                        0.0,
+                                        -2.32,
+                                        0.0
+                                    ],
+                                    "to": [
+                                        0.0,
+                                        0.0,
+                                        1.7399999999999998
+                                    ],
+                                    "uv": [
+                                        44.0,
+                                        42.0
+                                    ],
+                                    "rotationOrigin": [
+                                        0.0,
+                                        0.0,
+                                        0.8119999999999999
+                                    ],
+                                    "rotationZ": 50.0,
+                                    "faces": {
+                                        "west": {
+                                            "texture": "#hair",
+                                            "uv": [
+                                                44.0,
+                                                42.0,
+                                                45.5,
+                                                44.0
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "StrandRight",
+                            "from": [
+                                0.0,
+                                6.612,
+                                1.508
+                            ],
+                            "to": [
+                                0.0,
+                                8.932,
+                                3.2479999999999998
+                            ],
+                            "uv": [
+                                45.5,
+                                39.5
+                            ],
+                            "rotationOrigin": [
+                                0.0,
+                                8.932,
+                                2.436
+                            ],
+                            "rotationX": 28.0,
+                            "rotationY": -3.0,
+                            "rotationZ": -20.0,
+                            "faces": {
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        45.5,
+                                        39.5,
+                                        47.0,
+                                        41.5
+                                    ]
+                                }
+                            },
+                            "children": [
+                                {
+                                    "name": "StrandRight2",
+                                    "from": [
+                                        0.0,
+                                        -2.32,
+                                        0.0
+                                    ],
+                                    "to": [
+                                        0.0,
+                                        0.0,
+                                        1.7399999999999998
+                                    ],
+                                    "uv": [
+                                        44.0,
+                                        42.0
+                                    ],
+                                    "rotationOrigin": [
+                                        0.0,
+                                        0.0,
+                                        0.8119999999999999
+                                    ],
+                                    "rotationZ": 60.0,
+                                    "faces": {
+                                        "west": {
+                                            "texture": "#hair",
+                                            "uv": [
+                                                44.0,
+                                                42.0,
+                                                45.5,
+                                                44.0
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "HairExtension",
+                    "from": [
+                        6.959999999999999,
+                        -8.12,
+                        0.0
+                    ],
+                    "to": [
+                        6.959999999999999,
+                        0.0,
+                        6.38
+                    ],
+                    "uv": [
+                        36.5,
+                        15.5
+                    ],
+                    "rotationOrigin": [
+                        6.959999999999999,
+                        0.0,
+                        3.132
+                    ],
+                    "rotationZ": -5.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#hair",
+                            "uv": [
+                                36.5,
+                                15.5,
+                                42.0,
+                                22.5
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Hair tile upper part",
+            "stepParentName": "Head",
+            "from": [
+                -0.6799999999999999,
+                -2.82,
+                -0.8799999999999999
+            ],
+            "to": [
+                6.859999999999999,
+                5.88,
+                6.08
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                3.0,
+                9.0
+            ],
+            "rotationOrigin": [
+                3.3799999999999994,
+                5.88,
+                2.6
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#hair",
+                    "uv": [
+                        0.0,
+                        10.5,
+                        6.5,
+                        18.0
+                    ]
+                },
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        28.0,
+                        38.0,
+                        34.0,
+                        45.5
+                    ]
+                },
+                "south": {
+                    "texture": "#hair",
+                    "uv": [
+                        12.0,
+                        10.5,
+                        18.5,
+                        18.0
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        6.5,
+                        11.0,
+                        12.5,
+                        18.5
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        26.5,
+                        10.5,
+                        32.5,
+                        17.0
+                    ],
+                    "rotation": 90
+                }
+            }
+        }
+    ]
+}

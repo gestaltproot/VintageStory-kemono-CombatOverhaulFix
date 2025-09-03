@@ -2,7 +2,7 @@
   "textureWidth": 32,
   "textureHeight": 32,
   "textures": {
-    "cutiemark": "kemono:entity/common/emblemblank"
+    "cutiemark": "kemono:entity/common/emblem"
   },
   "textureSizes": {
     "cutiemark": [

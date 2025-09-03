@@ -1,1 +1,281 @@
-{"editor":{"backDropShape":"entity/humanoid/seraph-hairless","allAngles":true,"entityTextureMode":true},"textureWidth":48,"textureHeight":48,"textureSizes":{"hair":[48,48],"birch":[16,16]},"textures":{"hair":"game:entity/humanoid/seraphskinparts/hair/lightgray"},"elements":[{"name":"Hair","stepParentName":"Head","from":[-0.33199999999999996,-4.096,-0.6479999999999999],"to":[6.628,5.764,5.732],"autoUnwrap":false,"uv":[2.0,2.5],"rotationOrigin":[3.3799999999999994,1.8199999999999998,2.6],"faces":{"north":{"texture":"#hair","uv":[0.0,1.0,6.0,9.5]},"east":{"texture":"#hair","uv":[18.0,1.0,23.5,9.5]},"south":{"texture":"#hair","uv":[11.0,1.0,17.0,9.5]},"west":{"texture":"#hair","uv":[27.5,21.5,33.0,30.0]},"up":{"texture":"#hair","uv":[24.0,0.0,29.5,6.0],"rotation":90}},"children":[{"name":"hair-uncovered","from":[0.0,0.0,0.0],"to":[0.0,0.0,0.0],"uv":[0.0,0.0],"faces":{},"children":[{"name":"PartRightTop","from":[0.0,9.86,-0.23199999999999998],"to":[6.959999999999999,9.86,3.2479999999999998],"autoUnwrap":false,"uv":[20.0,10.5],"rotationOrigin":[3.7119999999999997,9.86,3.2479999999999998],"rotationX":5.0,"faces":{"up":{"texture":"#hair","uv":[19.0,10.5,25.0,13.5],"rotation":180}}},{"name":"PartLeftTop","from":[0.0,9.86,3.2479999999999998],"to":[6.959999999999999,9.86,6.728],"uv":[20.0,10.5],"rotationOrigin":[3.4799999999999995,9.86,3.2479999999999998],"rotationX":-5.0,"faces":{"up":{"texture":"#hair","uv":[20.0,10.5,26.0,13.5]}}},{"name":"PartRight","from":[0.0,6.38,6.38],"to":[6.959999999999999,9.86,6.38],"uv":[12.5,11.0],"rotationOrigin":[3.9439999999999995,9.86,6.38],"rotationX":-5.0,"faces":{"south":{"texture":"#hair","uv":[12.5,11.0,18.5,14.0]}}},{"name":"PartLeft","from":[0.0,6.38,0.0],"to":[6.959999999999999,9.86,0.0],"uv":[0.0,12.0],"rotationOrigin":[3.9439999999999995,9.86,0.0],"rotationX":5.0,"faces":{"north":{"texture":"#hair","uv":[0.0,12.0,6.0,15.0]}}}]}]},{"name":"Hair tile upper part","stepParentName":"Head","from":[-0.564,-2.82,-0.8799999999999999],"to":[6.975999999999999,5.88,6.08],"autoUnwrap":false,"uv":[3.0,9.0],"rotationOrigin":[3.4959999999999996,5.88,2.6],"faces":{}}]}
+{
+    "editor": {
+        "backDropShape": "entity/humanoid/seraph-hairless",
+        "allAngles": true,
+        "entityTextureMode": true
+    },
+    "textureWidth": 48,
+    "textureHeight": 48,
+    "textureSizes": {
+        "hair": [
+            48,
+            48
+        ],
+        "birch": [
+            16,
+            16
+        ]
+    },
+    "textures": {
+        "hair": "game:entity/humanoid/seraphskinparts/hair/lightgray"
+    },
+    "elements": [
+        {
+            "name": "Hair",
+            "stepParentName": "Head",
+            "from": [
+                -0.33199999999999996,
+                -4.096,
+                -0.6479999999999999
+            ],
+            "to": [
+                6.628,
+                5.764,
+                5.732
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                2.0,
+                2.5
+            ],
+            "rotationOrigin": [
+                3.3799999999999994,
+                1.8199999999999998,
+                2.6
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#hair",
+                    "uv": [
+                        0.0,
+                        1.0,
+                        6.0,
+                        9.5
+                    ]
+                },
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        18.0,
+                        1.0,
+                        23.5,
+                        9.5
+                    ]
+                },
+                "south": {
+                    "texture": "#hair",
+                    "uv": [
+                        11.0,
+                        1.0,
+                        17.0,
+                        9.5
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        27.5,
+                        21.5,
+                        33.0,
+                        30.0
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        24.0,
+                        0.0,
+                        29.5,
+                        6.0
+                    ],
+                    "rotation": 90
+                }
+            },
+            "children": [
+                {
+                    "name": "hair-uncovered",
+                    "from": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "to": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "uv": [
+                        0.0,
+                        0.0
+                    ],
+                    "faces": {},
+                    "children": [
+                        {
+                            "name": "PartRightTop",
+                            "from": [
+                                0.0,
+                                9.86,
+                                -0.23199999999999998
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                3.2479999999999998
+                            ],
+                            "autoUnwrap": false,
+                            "uv": [
+                                20.0,
+                                10.5
+                            ],
+                            "rotationOrigin": [
+                                3.7119999999999997,
+                                9.86,
+                                3.2479999999999998
+                            ],
+                            "rotationX": 5.0,
+                            "faces": {
+                                "up": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        19.0,
+                                        10.5,
+                                        25.0,
+                                        13.5
+                                    ],
+                                    "rotation": 180
+                                }
+                            }
+                        },
+                        {
+                            "name": "PartLeftTop",
+                            "from": [
+                                0.0,
+                                9.86,
+                                3.2479999999999998
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                6.728
+                            ],
+                            "uv": [
+                                20.0,
+                                10.5
+                            ],
+                            "rotationOrigin": [
+                                3.4799999999999995,
+                                9.86,
+                                3.2479999999999998
+                            ],
+                            "rotationX": -5.0,
+                            "faces": {
+                                "up": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        20.0,
+                                        10.5,
+                                        26.0,
+                                        13.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "PartRight",
+                            "from": [
+                                0.0,
+                                6.38,
+                                6.38
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                6.38
+                            ],
+                            "uv": [
+                                12.5,
+                                11.0
+                            ],
+                            "rotationOrigin": [
+                                3.9439999999999995,
+                                9.86,
+                                6.38
+                            ],
+                            "rotationX": -5.0,
+                            "faces": {
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        12.5,
+                                        11.0,
+                                        18.5,
+                                        14.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "PartLeft",
+                            "from": [
+                                0.0,
+                                6.38,
+                                0.0
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                0.0
+                            ],
+                            "uv": [
+                                0.0,
+                                12.0
+                            ],
+                            "rotationOrigin": [
+                                3.9439999999999995,
+                                9.86,
+                                0.0
+                            ],
+                            "rotationX": 5.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        0.0,
+                                        12.0,
+                                        6.0,
+                                        15.0
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hair tile upper part",
+            "stepParentName": "Head",
+            "from": [
+                -0.564,
+                -2.82,
+                -0.8799999999999999
+            ],
+            "to": [
+                6.975999999999999,
+                5.88,
+                6.08
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                3.0,
+                9.0
+            ],
+            "rotationOrigin": [
+                3.4959999999999996,
+                5.88,
+                2.6
+            ],
+            "faces": {}
+        }
+    ]
+}

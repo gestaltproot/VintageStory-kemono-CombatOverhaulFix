@@ -1,1 +1,1197 @@
-{"editor":{"backDropShape":"entity/humanoid/seraph-hairless","allAngles":true,"entityTextureMode":true},"textureWidth":48,"textureHeight":48,"textureSizes":{"hair":[48,48],"birch":[16,16]},"textures":{"hair":"game:entity/humanoid/seraphskinparts/hair/lightgray"},"elements":[{"name":"Hair","stepParentName":"Head","from":[-0.3204,-4.096,-0.6479999999999999],"to":[6.6396,5.764,5.732],"autoUnwrap":false,"uv":[2.0,2.5],"rotationOrigin":[3.3799999999999994,1.8199999999999998,2.6],"faces":{"north":{"texture":"#hair","uv":[33.0,34.5,39.0,43.0]},"east":{"texture":"#hair","uv":[33.5,34.0,39.0,42.5]},"south":{"texture":"#hair","uv":[33.0,35.0,39.0,43.5]},"west":{"texture":"#hair","uv":[39.5,31.0,45.0,39.5]},"up":{"texture":"#hair","uv":[33.0,32.0,38.5,38.0],"rotation":90}},"children":[{"name":"Dreadlock20","from":[0.0,3.4799999999999995,0.0],"to":[1.16,9.28,1.16],"uv":[34.0,36.5],"rotationOrigin":[0.58,9.28,0.58],"rotationX":8.0,"rotationZ":-28.0,"faces":{"north":{"texture":"#hair","uv":[34.0,36.5,35.0,41.5]},"south":{"texture":"#hair","uv":[35.0,36.5,36.0,41.5]},"west":{"texture":"#hair","uv":[36.0,36.5,37.0,41.5]}}},{"name":"Dreadlock21","from":[0.0,5.8,4.64],"to":[1.16,9.28,5.8],"uv":[33.0,38.5],"rotationOrigin":[0.58,9.28,5.22],"rotationX":-17.0,"rotationZ":-28.0,"faces":{"north":{"texture":"#hair","uv":[33.0,38.5,34.0,41.5]},"south":{"texture":"#hair","uv":[34.0,38.5,35.0,41.5]},"west":{"texture":"#hair","uv":[35.0,38.5,36.0,41.5]}}},{"name":"hair-uncovered","from":[0.0,0.0,0.0],"to":[1.16,1.16,1.16],"uv":[0.0,0.0],"faces":{},"children":[{"name":"Dreadlock19","from":[5.568,2.9,2.2039999999999997],"to":[6.728,7.539999999999999,3.364],"uv":[34.0,38.5],"rotationOrigin":[6.148,8.7,2.784],"rotationX":-6.0,"rotationZ":33.0,"faces":{"north":{"texture":"#hair","uv":[34.0,38.5,35.0,42.5]},"east":{"texture":"#hair","uv":[35.0,38.5,36.0,42.5]},"south":{"texture":"#hair","uv":[36.0,38.5,37.0,42.5]}}},{"name":"Dreadlock18","from":[6.032,4.06,4.524],"to":[7.191999999999999,7.539999999999999,5.684],"uv":[34.0,38.5],"rotationOrigin":[6.612,7.539999999999999,5.104],"rotationX":-33.0,"rotationZ":39.0,"faces":{"north":{"texture":"#hair","uv":[34.0,38.5,35.0,41.5]},"east":{"texture":"#hair","uv":[35.0,38.5,36.0,41.5]},"south":{"texture":"#hair","uv":[36.0,38.5,37.0,41.5]}}},{"name":"Dreadlock17","from":[5.9159999999999995,0.58,1.044],"to":[7.075999999999999,4.06,2.2039999999999997],"uv":[34.0,38.5],"rotationOrigin":[6.4959999999999996,4.06,1.6239999999999999],"rotationX":14.0,"rotationZ":25.0,"faces":{"north":{"texture":"#hair","uv":[34.0,38.5,35.0,41.5]},"east":{"texture":"#hair","uv":[35.0,38.5,36.0,41.5]},"south":{"texture":"#hair","uv":[36.0,38.5,37.0,41.5]}}},{"name":"Dreadlock16","from":[6.148,3.4799999999999995,0.23199999999999998],"to":[7.307999999999999,8.12,1.392],"uv":[34.0,37.5],"rotationOrigin":[6.728,8.12,0.8119999999999999],"rotationX":14.0,"rotationZ":25.0,"faces":{"north":{"texture":"#hair","uv":[34.0,37.5,35.0,41.5]},"east":{"texture":"#hair","uv":[35.0,37.5,36.0,41.5]},"south":{"texture":"#hair","uv":[36.0,37.5,37.0,41.5]}}},{"name":"Dreadlock15","from":[6.148,1.16,3.7119999999999997],"to":[7.307999999999999,5.8,4.872],"uv":[34.0,36.5],"rotationOrigin":[6.728,5.8,4.292],"rotationX":-14.0,"rotationZ":19.0,"faces":{"north":{"texture":"#hair","uv":[34.0,36.5,35.0,40.5]},"east":{"texture":"#hair","uv":[35.0,36.5,36.0,40.5]},"south":{"texture":"#hair","uv":[36.0,36.5,37.0,40.5]}}},{"name":"Dreadlock14","from":[2.9,5.8,0.0],"to":[4.06,9.28,1.16],"uv":[36.0,36.5],"rotationOrigin":[3.4799999999999995,9.28,0.58],"rotationX":42.0,"rotationZ":25.0,"faces":{"north":{"texture":"#hair","uv":[36.0,36.5,37.0,39.5]},"east":{"texture":"#hair","uv":[37.0,36.5,38.0,39.5]},"west":{"texture":"#hair","uv":[38.0,36.5,39.0,39.5]}}},{"name":"Dreadlock13","from":[5.8,1.16,0.0],"to":[6.959999999999999,5.8,1.16],"uv":[33.0,37.5],"rotationOrigin":[6.38,5.8,0.58],"rotationX":30.0,"rotationZ":19.0,"faces":{"north":{"texture":"#hair","uv":[33.0,37.5,34.0,41.5]},"east":{"texture":"#hair","uv":[34.0,37.5,35.0,41.5]},"west":{"texture":"#hair","uv":[35.0,37.5,36.0,41.5]}}},{"name":"Dreadlock12","from":[5.8,4.64,0.0],"to":[6.959999999999999,9.28,1.16],"uv":[34.0,37.5],"rotationOrigin":[6.38,9.28,0.58],"rotationX":30.0,"rotationZ":10.0,"faces":{"north":{"texture":"#hair","uv":[34.0,37.5,35.0,41.5]},"east":{"texture":"#hair","uv":[35.0,37.5,36.0,41.5]},"west":{"texture":"#hair","uv":[36.0,37.5,37.0,41.5]}}},{"name":"Dreadlock11","from":[1.16,4.64,0.0],"to":[2.32,8.12,1.16],"uv":[34.0,37.5],"rotationOrigin":[1.7399999999999998,8.12,0.58],"rotationX":28.0,"rotationZ":-17.0,"faces":{"north":{"texture":"#hair","uv":[34.0,37.5,35.0,40.5]},"east":{"texture":"#hair","uv":[35.0,37.5,36.0,40.5]},"west":{"texture":"#hair","uv":[36.0,37.5,37.0,40.5]}}},{"name":"Dreadlock10","from":[1.16,1.16,0.0],"to":[2.32,4.64,1.16],"uv":[34.0,38.5],"rotationOrigin":[1.7399999999999998,4.64,0.58],"rotationX":14.0,"rotationZ":-19.0,"faces":{"north":{"texture":"#hair","uv":[34.0,38.5,35.0,41.5]},"east":{"texture":"#hair","uv":[35.0,38.5,36.0,41.5]},"west":{"texture":"#hair","uv":[36.0,38.5,37.0,41.5]}}},{"name":"Dreadlock9","from":[3.4799999999999995,1.16,0.0],"to":[4.64,5.8,1.16],"uv":[34.0,36.5],"rotationOrigin":[4.06,5.8,0.58],"rotationX":42.0,"rotationZ":-11.0,"faces":{"north":{"texture":"#hair","uv":[34.0,36.5,35.0,40.5]},"east":{"texture":"#hair","uv":[35.0,36.5,36.0,40.5]},"west":{"texture":"#hair","uv":[36.0,36.5,37.0,40.5]}}},{"name":"Dreadlock8","from":[5.8,5.8,5.335999999999999],"to":[6.959999999999999,9.28,6.4959999999999996],"uv":[33.5,38.5],"rotationOrigin":[6.38,9.28,5.9159999999999995],"rotationX":-30.0,"rotationZ":-8.0,"faces":{"east":{"texture":"#hair","uv":[33.5,38.5,34.5,41.5]},"south":{"texture":"#hair","uv":[34.5,38.5,35.5,41.5]},"west":{"texture":"#hair","uv":[35.5,38.5,36.5,41.5]}}},{"name":"Dreadlock7","from":[5.8,1.16,4.9879999999999995],"to":[6.959999999999999,4.64,6.148],"uv":[33.5,38.5],"rotationOrigin":[6.38,4.64,5.568],"rotationX":-36.0,"rotationZ":22.0,"faces":{"east":{"texture":"#hair","uv":[33.5,38.5,34.5,41.5]},"south":{"texture":"#hair","uv":[34.5,38.5,35.5,41.5]},"west":{"texture":"#hair","uv":[35.5,38.5,36.5,41.5]}}},{"name":"Dreadlock6","from":[2.32,1.16,4.9879999999999995],"to":[3.4799999999999995,5.8,6.148],"uv":[34.5,37.5],"rotationOrigin":[2.9,5.8,5.568],"rotationX":-39.0,"rotationZ":-19.0,"faces":{"east":{"texture":"#hair","uv":[34.5,37.5,35.5,41.5]},"south":{"texture":"#hair","uv":[35.5,37.5,36.5,41.5]},"west":{"texture":"#hair","uv":[36.5,37.5,37.5,41.5]}}},{"name":"Dreadlock5","from":[3.4799999999999995,3.4799999999999995,5.335999999999999],"to":[4.64,6.959999999999999,6.4959999999999996],"uv":[33.5,38.5],"rotationOrigin":[4.06,6.959999999999999,5.9159999999999995],"rotationX":-30.0,"rotationZ":11.0,"faces":{"east":{"texture":"#hair","uv":[33.5,38.5,34.5,41.5]},"south":{"texture":"#hair","uv":[34.5,38.5,35.5,41.5]},"west":{"texture":"#hair","uv":[35.5,38.5,36.5,41.5]}}},{"name":"Dreadlock4","from":[1.16,4.64,5.335999999999999],"to":[2.32,9.28,6.4959999999999996],"uv":[34.5,36.5],"rotationOrigin":[1.7399999999999998,9.28,5.9159999999999995],"rotationX":-19.0,"rotationZ":-8.0,"faces":{"east":{"texture":"#hair","uv":[34.5,37.5,35.5,41.5]},"south":{"texture":"#hair","uv":[35.5,37.5,36.5,41.5]},"west":{"texture":"#hair","uv":[36.5,37.5,37.5,41.5]}}}]},{"name":"Dreadlock22","from":[0.0,7.539999999999999,2.32],"to":[1.16,9.28,3.4799999999999995],"uv":[34.0,39.5],"rotationOrigin":[0.58,9.28,2.9],"rotationX":11.0,"rotationZ":-44.0,"faces":{"north":{"texture":"#hair","uv":[34.0,39.5,35.0,41.0]},"south":{"texture":"#hair","uv":[35.0,39.5,36.0,41.0]},"west":{"texture":"#hair","uv":[36.0,39.5,37.0,41.0]}}}]},{"name":"Hair tile upper part","stepParentName":"Head","from":[-0.564,-2.82,-0.8799999999999999],"to":[6.975999999999999,5.88,6.08],"autoUnwrap":false,"uv":[3.0,9.0],"rotationOrigin":[3.4959999999999996,5.88,2.6],"faces":{"north":{"texture":"#hair","uv":[0.0,10.5,6.5,18.0]},"east":{"texture":"#hair","uv":[33.5,36.5,39.5,44.0]},"south":{"texture":"#hair","uv":[0.0,10.5,6.5,18.0]},"west":{"texture":"#hair","uv":[13.5,11.5,19.5,19.0]},"up":{"texture":"#hair","uv":[26.5,10.5,32.5,17.0],"rotation":90}}}]}
+{
+    "editor": {
+        "backDropShape": "entity/humanoid/seraph-hairless",
+        "allAngles": true,
+        "entityTextureMode": true
+    },
+    "textureWidth": 48,
+    "textureHeight": 48,
+    "textureSizes": {
+        "hair": [
+            48,
+            48
+        ],
+        "birch": [
+            16,
+            16
+        ]
+    },
+    "textures": {
+        "hair": "game:entity/humanoid/seraphskinparts/hair/lightgray"
+    },
+    "elements": [
+        {
+            "name": "Hair",
+            "stepParentName": "Head",
+            "from": [
+                -0.3204,
+                -4.096,
+                -0.6479999999999999
+            ],
+            "to": [
+                6.6396,
+                5.764,
+                5.732
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                2.0,
+                2.5
+            ],
+            "rotationOrigin": [
+                3.3799999999999994,
+                1.8199999999999998,
+                2.6
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#hair",
+                    "uv": [
+                        33.0,
+                        34.5,
+                        39.0,
+                        43.0
+                    ]
+                },
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        33.5,
+                        34.0,
+                        39.0,
+                        42.5
+                    ]
+                },
+                "south": {
+                    "texture": "#hair",
+                    "uv": [
+                        33.0,
+                        35.0,
+                        39.0,
+                        43.5
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        39.5,
+                        31.0,
+                        45.0,
+                        39.5
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        33.0,
+                        32.0,
+                        38.5,
+                        38.0
+                    ],
+                    "rotation": 90
+                }
+            },
+            "children": [
+                {
+                    "name": "Dreadlock20",
+                    "from": [
+                        0.0,
+                        3.4799999999999995,
+                        0.0
+                    ],
+                    "to": [
+                        1.16,
+                        9.28,
+                        1.16
+                    ],
+                    "uv": [
+                        34.0,
+                        36.5
+                    ],
+                    "rotationOrigin": [
+                        0.58,
+                        9.28,
+                        0.58
+                    ],
+                    "rotationX": 8.0,
+                    "rotationZ": -28.0,
+                    "faces": {
+                        "north": {
+                            "texture": "#hair",
+                            "uv": [
+                                34.0,
+                                36.5,
+                                35.0,
+                                41.5
+                            ]
+                        },
+                        "south": {
+                            "texture": "#hair",
+                            "uv": [
+                                35.0,
+                                36.5,
+                                36.0,
+                                41.5
+                            ]
+                        },
+                        "west": {
+                            "texture": "#hair",
+                            "uv": [
+                                36.0,
+                                36.5,
+                                37.0,
+                                41.5
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Dreadlock21",
+                    "from": [
+                        0.0,
+                        5.8,
+                        4.64
+                    ],
+                    "to": [
+                        1.16,
+                        9.28,
+                        5.8
+                    ],
+                    "uv": [
+                        33.0,
+                        38.5
+                    ],
+                    "rotationOrigin": [
+                        0.58,
+                        9.28,
+                        5.22
+                    ],
+                    "rotationX": -17.0,
+                    "rotationZ": -28.0,
+                    "faces": {
+                        "north": {
+                            "texture": "#hair",
+                            "uv": [
+                                33.0,
+                                38.5,
+                                34.0,
+                                41.5
+                            ]
+                        },
+                        "south": {
+                            "texture": "#hair",
+                            "uv": [
+                                34.0,
+                                38.5,
+                                35.0,
+                                41.5
+                            ]
+                        },
+                        "west": {
+                            "texture": "#hair",
+                            "uv": [
+                                35.0,
+                                38.5,
+                                36.0,
+                                41.5
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "hair-uncovered",
+                    "from": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "to": [
+                        1.16,
+                        1.16,
+                        1.16
+                    ],
+                    "uv": [
+                        0.0,
+                        0.0
+                    ],
+                    "faces": {},
+                    "children": [
+                        {
+                            "name": "Dreadlock19",
+                            "from": [
+                                5.568,
+                                2.9,
+                                2.2039999999999997
+                            ],
+                            "to": [
+                                6.728,
+                                7.539999999999999,
+                                3.364
+                            ],
+                            "uv": [
+                                34.0,
+                                38.5
+                            ],
+                            "rotationOrigin": [
+                                6.148,
+                                8.7,
+                                2.784
+                            ],
+                            "rotationX": -6.0,
+                            "rotationZ": 33.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        38.5,
+                                        35.0,
+                                        42.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        38.5,
+                                        36.0,
+                                        42.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        38.5,
+                                        37.0,
+                                        42.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock18",
+                            "from": [
+                                6.032,
+                                4.06,
+                                4.524
+                            ],
+                            "to": [
+                                7.191999999999999,
+                                7.539999999999999,
+                                5.684
+                            ],
+                            "uv": [
+                                34.0,
+                                38.5
+                            ],
+                            "rotationOrigin": [
+                                6.612,
+                                7.539999999999999,
+                                5.104
+                            ],
+                            "rotationX": -33.0,
+                            "rotationZ": 39.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        38.5,
+                                        35.0,
+                                        41.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        38.5,
+                                        36.0,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        38.5,
+                                        37.0,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock17",
+                            "from": [
+                                5.9159999999999995,
+                                0.58,
+                                1.044
+                            ],
+                            "to": [
+                                7.075999999999999,
+                                4.06,
+                                2.2039999999999997
+                            ],
+                            "uv": [
+                                34.0,
+                                38.5
+                            ],
+                            "rotationOrigin": [
+                                6.4959999999999996,
+                                4.06,
+                                1.6239999999999999
+                            ],
+                            "rotationX": 14.0,
+                            "rotationZ": 25.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        38.5,
+                                        35.0,
+                                        41.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        38.5,
+                                        36.0,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        38.5,
+                                        37.0,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock16",
+                            "from": [
+                                6.148,
+                                3.4799999999999995,
+                                0.23199999999999998
+                            ],
+                            "to": [
+                                7.307999999999999,
+                                8.12,
+                                1.392
+                            ],
+                            "uv": [
+                                34.0,
+                                37.5
+                            ],
+                            "rotationOrigin": [
+                                6.728,
+                                8.12,
+                                0.8119999999999999
+                            ],
+                            "rotationX": 14.0,
+                            "rotationZ": 25.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        37.5,
+                                        35.0,
+                                        41.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        37.5,
+                                        36.0,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        37.5,
+                                        37.0,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock15",
+                            "from": [
+                                6.148,
+                                1.16,
+                                3.7119999999999997
+                            ],
+                            "to": [
+                                7.307999999999999,
+                                5.8,
+                                4.872
+                            ],
+                            "uv": [
+                                34.0,
+                                36.5
+                            ],
+                            "rotationOrigin": [
+                                6.728,
+                                5.8,
+                                4.292
+                            ],
+                            "rotationX": -14.0,
+                            "rotationZ": 19.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        36.5,
+                                        35.0,
+                                        40.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        36.5,
+                                        36.0,
+                                        40.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        36.5,
+                                        37.0,
+                                        40.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock14",
+                            "from": [
+                                2.9,
+                                5.8,
+                                0.0
+                            ],
+                            "to": [
+                                4.06,
+                                9.28,
+                                1.16
+                            ],
+                            "uv": [
+                                36.0,
+                                36.5
+                            ],
+                            "rotationOrigin": [
+                                3.4799999999999995,
+                                9.28,
+                                0.58
+                            ],
+                            "rotationX": 42.0,
+                            "rotationZ": 25.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        36.5,
+                                        37.0,
+                                        39.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        37.0,
+                                        36.5,
+                                        38.0,
+                                        39.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        38.0,
+                                        36.5,
+                                        39.0,
+                                        39.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock13",
+                            "from": [
+                                5.8,
+                                1.16,
+                                0.0
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                5.8,
+                                1.16
+                            ],
+                            "uv": [
+                                33.0,
+                                37.5
+                            ],
+                            "rotationOrigin": [
+                                6.38,
+                                5.8,
+                                0.58
+                            ],
+                            "rotationX": 30.0,
+                            "rotationZ": 19.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        33.0,
+                                        37.5,
+                                        34.0,
+                                        41.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        37.5,
+                                        35.0,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        37.5,
+                                        36.0,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock12",
+                            "from": [
+                                5.8,
+                                4.64,
+                                0.0
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.28,
+                                1.16
+                            ],
+                            "uv": [
+                                34.0,
+                                37.5
+                            ],
+                            "rotationOrigin": [
+                                6.38,
+                                9.28,
+                                0.58
+                            ],
+                            "rotationX": 30.0,
+                            "rotationZ": 10.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        37.5,
+                                        35.0,
+                                        41.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        37.5,
+                                        36.0,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        37.5,
+                                        37.0,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock11",
+                            "from": [
+                                1.16,
+                                4.64,
+                                0.0
+                            ],
+                            "to": [
+                                2.32,
+                                8.12,
+                                1.16
+                            ],
+                            "uv": [
+                                34.0,
+                                37.5
+                            ],
+                            "rotationOrigin": [
+                                1.7399999999999998,
+                                8.12,
+                                0.58
+                            ],
+                            "rotationX": 28.0,
+                            "rotationZ": -17.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        37.5,
+                                        35.0,
+                                        40.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        37.5,
+                                        36.0,
+                                        40.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        37.5,
+                                        37.0,
+                                        40.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock10",
+                            "from": [
+                                1.16,
+                                1.16,
+                                0.0
+                            ],
+                            "to": [
+                                2.32,
+                                4.64,
+                                1.16
+                            ],
+                            "uv": [
+                                34.0,
+                                38.5
+                            ],
+                            "rotationOrigin": [
+                                1.7399999999999998,
+                                4.64,
+                                0.58
+                            ],
+                            "rotationX": 14.0,
+                            "rotationZ": -19.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        38.5,
+                                        35.0,
+                                        41.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        38.5,
+                                        36.0,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        38.5,
+                                        37.0,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock9",
+                            "from": [
+                                3.4799999999999995,
+                                1.16,
+                                0.0
+                            ],
+                            "to": [
+                                4.64,
+                                5.8,
+                                1.16
+                            ],
+                            "uv": [
+                                34.0,
+                                36.5
+                            ],
+                            "rotationOrigin": [
+                                4.06,
+                                5.8,
+                                0.58
+                            ],
+                            "rotationX": 42.0,
+                            "rotationZ": -11.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.0,
+                                        36.5,
+                                        35.0,
+                                        40.5
+                                    ]
+                                },
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.0,
+                                        36.5,
+                                        36.0,
+                                        40.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.0,
+                                        36.5,
+                                        37.0,
+                                        40.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock8",
+                            "from": [
+                                5.8,
+                                5.8,
+                                5.335999999999999
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.28,
+                                6.4959999999999996
+                            ],
+                            "uv": [
+                                33.5,
+                                38.5
+                            ],
+                            "rotationOrigin": [
+                                6.38,
+                                9.28,
+                                5.9159999999999995
+                            ],
+                            "rotationX": -30.0,
+                            "rotationZ": -8.0,
+                            "faces": {
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        33.5,
+                                        38.5,
+                                        34.5,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.5,
+                                        38.5,
+                                        35.5,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.5,
+                                        38.5,
+                                        36.5,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock7",
+                            "from": [
+                                5.8,
+                                1.16,
+                                4.9879999999999995
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                4.64,
+                                6.148
+                            ],
+                            "uv": [
+                                33.5,
+                                38.5
+                            ],
+                            "rotationOrigin": [
+                                6.38,
+                                4.64,
+                                5.568
+                            ],
+                            "rotationX": -36.0,
+                            "rotationZ": 22.0,
+                            "faces": {
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        33.5,
+                                        38.5,
+                                        34.5,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.5,
+                                        38.5,
+                                        35.5,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.5,
+                                        38.5,
+                                        36.5,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock6",
+                            "from": [
+                                2.32,
+                                1.16,
+                                4.9879999999999995
+                            ],
+                            "to": [
+                                3.4799999999999995,
+                                5.8,
+                                6.148
+                            ],
+                            "uv": [
+                                34.5,
+                                37.5
+                            ],
+                            "rotationOrigin": [
+                                2.9,
+                                5.8,
+                                5.568
+                            ],
+                            "rotationX": -39.0,
+                            "rotationZ": -19.0,
+                            "faces": {
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.5,
+                                        37.5,
+                                        35.5,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.5,
+                                        37.5,
+                                        36.5,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.5,
+                                        37.5,
+                                        37.5,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock5",
+                            "from": [
+                                3.4799999999999995,
+                                3.4799999999999995,
+                                5.335999999999999
+                            ],
+                            "to": [
+                                4.64,
+                                6.959999999999999,
+                                6.4959999999999996
+                            ],
+                            "uv": [
+                                33.5,
+                                38.5
+                            ],
+                            "rotationOrigin": [
+                                4.06,
+                                6.959999999999999,
+                                5.9159999999999995
+                            ],
+                            "rotationX": -30.0,
+                            "rotationZ": 11.0,
+                            "faces": {
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        33.5,
+                                        38.5,
+                                        34.5,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.5,
+                                        38.5,
+                                        35.5,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.5,
+                                        38.5,
+                                        36.5,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "Dreadlock4",
+                            "from": [
+                                1.16,
+                                4.64,
+                                5.335999999999999
+                            ],
+                            "to": [
+                                2.32,
+                                9.28,
+                                6.4959999999999996
+                            ],
+                            "uv": [
+                                34.5,
+                                36.5
+                            ],
+                            "rotationOrigin": [
+                                1.7399999999999998,
+                                9.28,
+                                5.9159999999999995
+                            ],
+                            "rotationX": -19.0,
+                            "rotationZ": -8.0,
+                            "faces": {
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        34.5,
+                                        37.5,
+                                        35.5,
+                                        41.5
+                                    ]
+                                },
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        35.5,
+                                        37.5,
+                                        36.5,
+                                        41.5
+                                    ]
+                                },
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        36.5,
+                                        37.5,
+                                        37.5,
+                                        41.5
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Dreadlock22",
+                    "from": [
+                        0.0,
+                        7.539999999999999,
+                        2.32
+                    ],
+                    "to": [
+                        1.16,
+                        9.28,
+                        3.4799999999999995
+                    ],
+                    "uv": [
+                        34.0,
+                        39.5
+                    ],
+                    "rotationOrigin": [
+                        0.58,
+                        9.28,
+                        2.9
+                    ],
+                    "rotationX": 11.0,
+                    "rotationZ": -44.0,
+                    "faces": {
+                        "north": {
+                            "texture": "#hair",
+                            "uv": [
+                                34.0,
+                                39.5,
+                                35.0,
+                                41.0
+                            ]
+                        },
+                        "south": {
+                            "texture": "#hair",
+                            "uv": [
+                                35.0,
+                                39.5,
+                                36.0,
+                                41.0
+                            ]
+                        },
+                        "west": {
+                            "texture": "#hair",
+                            "uv": [
+                                36.0,
+                                39.5,
+                                37.0,
+                                41.0
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Hair tile upper part",
+            "stepParentName": "Head",
+            "from": [
+                -0.564,
+                -2.82,
+                -0.8799999999999999
+            ],
+            "to": [
+                6.975999999999999,
+                5.88,
+                6.08
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                3.0,
+                9.0
+            ],
+            "rotationOrigin": [
+                3.4959999999999996,
+                5.88,
+                2.6
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#hair",
+                    "uv": [
+                        0.0,
+                        10.5,
+                        6.5,
+                        18.0
+                    ]
+                },
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        33.5,
+                        36.5,
+                        39.5,
+                        44.0
+                    ]
+                },
+                "south": {
+                    "texture": "#hair",
+                    "uv": [
+                        0.0,
+                        10.5,
+                        6.5,
+                        18.0
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        13.5,
+                        11.5,
+                        19.5,
+                        19.0
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        26.5,
+                        10.5,
+                        32.5,
+                        17.0
+                    ],
+                    "rotation": 90
+                }
+            }
+        }
+    ]
+}

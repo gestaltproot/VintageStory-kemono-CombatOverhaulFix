@@ -1,1 +1,500 @@
-{"editor":{"backDropShape":"entity/humanoid/seraph-hairless","allAngles":true,"entityTextureMode":true},"textureWidth":48,"textureHeight":48,"textureSizes":{"hair":[48,48],"birch":[16,16]},"textures":{"hair":"game:entity/humanoid/seraphskinparts/hair/lightgray"},"elements":[{"name":"Hair","stepParentName":"Head","from":[-0.2972,-4.096,-0.6479999999999999],"to":[6.6628,5.764,5.732],"autoUnwrap":false,"uv":[2.0,2.5],"rotationOrigin":[4.25,1.8965599999999996,1.788],"rotationZ":2.0,"faces":{"north":{"texture":"#hair","uv":[0.0,1.0,6.0,9.5]},"east":{"texture":"#hair","uv":[18.0,1.0,23.5,9.5]},"south":{"texture":"#hair","uv":[11.0,1.0,17.0,9.5]},"west":{"texture":"#hair","uv":[19.5,11.5,25.0,20.0]},"up":{"texture":"#hair","uv":[24.0,0.0,29.5,6.0],"rotation":90}},"children":[{"name":"hair-uncovered","from":[0.0,0.0,0.0],"to":[1.16,1.16,1.16],"uv":[0.0,0.0],"faces":{},"children":[{"name":"Cube12","from":[0.0,9.86,6.38],"to":[6.959999999999999,12.18,6.38],"autoUnwrap":false,"uv":[3.0,0.0],"rotationOrigin":[3.9439999999999995,9.86,6.38],"rotationX":-36.0,"faces":{"south":{"texture":"#hair","uv":[5.5,0.0,11.5,2.0],"rotation":180}}},{"name":"Cube11","from":[0.0,9.86,0.0],"to":[6.959999999999999,12.18,0.0],"autoUnwrap":false,"uv":[3.0,0.0],"rotationOrigin":[3.9439999999999995,9.86,0.0],"rotationX":36.0,"faces":{"north":{"texture":"#hair","uv":[6.5,11.0,12.5,13.0],"rotation":180}}},{"name":"Cube10","from":[6.959999999999999,9.86,0.0],"to":[6.959999999999999,12.18,6.38],"autoUnwrap":false,"uv":[11.0,16.0],"rotationOrigin":[6.959999999999999,9.86,3.132],"rotationZ":28.0,"faces":{"east":{"texture":"#hair","uv":[12.5,12.5,18.0,14.5],"rotation":180}}},{"name":"Cube9","from":[0.0,9.86,0.0],"to":[0.0,12.18,6.38],"autoUnwrap":false,"uv":[11.0,16.0],"rotationOrigin":[0.0,9.86,3.132],"rotationZ":-39.0,"faces":{"west":{"texture":"#hair","uv":[20.0,27.0,25.5,29.0],"rotation":180}}},{"name":"PartLeft8","from":[0.0,7.539999999999999,0.0],"to":[6.959999999999999,9.86,0.0],"autoUnwrap":false,"uv":[6.0,11.0],"rotationOrigin":[3.9439999999999995,9.86,0.0],"rotationX":19.0,"faces":{"north":{"texture":"#hair","uv":[6.0,11.0,12.0,13.0]}}},{"name":"PartRight","from":[0.0,6.38,6.38],"to":[6.959999999999999,9.86,6.38],"uv":[12.5,11.0],"rotationOrigin":[3.9439999999999995,9.86,6.38],"rotationX":-5.0,"faces":{"south":{"texture":"#hair","uv":[12.5,11.0,18.5,14.0]}}},{"name":"PartLeft","from":[0.0,6.38,0.0],"to":[6.959999999999999,9.86,0.0],"uv":[0.0,12.0],"rotationOrigin":[3.9439999999999995,9.86,0.0],"rotationX":5.0,"faces":{"north":{"texture":"#hair","uv":[0.0,12.0,6.0,15.0]}}},{"name":"PartRightTop","from":[0.58,9.86,-0.23199999999999998],"to":[6.38,9.86,5.568],"autoUnwrap":false,"uv":[20.0,10.5],"rotationOrigin":[4.292,9.86,5.568],"rotationX":5.0,"faces":{"up":{"texture":"#hair","uv":[16.0,1.5,21.0,6.5],"rotation":180}},"children":[{"name":"Cube1","from":[-0.348,0.0,-1.16],"to":[6.032,0.0,2.32],"autoUnwrap":false,"uv":[13.0,12.0],"rotationOrigin":[3.7119999999999997,0.0,2.32],"rotationX":-22.0,"faces":{"up":{"texture":"#hair","uv":[13.0,12.0,18.5,15.0],"rotation":180}}}]},{"name":"PartLeftTop","from":[0.0,9.86,5.568],"to":[6.959999999999999,9.86,7.887999999999999],"uv":[19.5,11.5],"rotationOrigin":[3.4799999999999995,9.86,5.568],"rotationX":44.0,"faces":{"up":{"texture":"#hair","uv":[19.5,11.5,25.5,13.5]}}}]}]},{"name":"Hair tile upper part","stepParentName":"Head","from":[-0.5755999999999999,-2.936,-0.996],"to":[7.5443999999999996,5.764,5.964],"autoUnwrap":false,"uv":[3.0,9.0],"rotationOrigin":[3.2932319999999993,6.002728,2.136],"rotationZ":2.0,"faces":{}}]}
+{
+    "editor": {
+        "backDropShape": "entity/humanoid/seraph-hairless",
+        "allAngles": true,
+        "entityTextureMode": true
+    },
+    "textureWidth": 48,
+    "textureHeight": 48,
+    "textureSizes": {
+        "hair": [
+            48,
+            48
+        ],
+        "birch": [
+            16,
+            16
+        ]
+    },
+    "textures": {
+        "hair": "game:entity/humanoid/seraphskinparts/hair/lightgray"
+    },
+    "elements": [
+        {
+            "name": "Hair",
+            "stepParentName": "Head",
+            "from": [
+                -0.2972,
+                -4.096,
+                -0.6479999999999999
+            ],
+            "to": [
+                6.6628,
+                5.764,
+                5.732
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                2.0,
+                2.5
+            ],
+            "rotationOrigin": [
+                4.25,
+                1.8965599999999996,
+                1.788
+            ],
+            "rotationZ": 2.0,
+            "faces": {
+                "north": {
+                    "texture": "#hair",
+                    "uv": [
+                        0.0,
+                        1.0,
+                        6.0,
+                        9.5
+                    ]
+                },
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        18.0,
+                        1.0,
+                        23.5,
+                        9.5
+                    ]
+                },
+                "south": {
+                    "texture": "#hair",
+                    "uv": [
+                        11.0,
+                        1.0,
+                        17.0,
+                        9.5
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        19.5,
+                        11.5,
+                        25.0,
+                        20.0
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        24.0,
+                        0.0,
+                        29.5,
+                        6.0
+                    ],
+                    "rotation": 90
+                }
+            },
+            "children": [
+                {
+                    "name": "hair-uncovered",
+                    "from": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "to": [
+                        1.16,
+                        1.16,
+                        1.16
+                    ],
+                    "uv": [
+                        0.0,
+                        0.0
+                    ],
+                    "faces": {},
+                    "children": [
+                        {
+                            "name": "Cube12",
+                            "from": [
+                                0.0,
+                                9.86,
+                                6.38
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                12.18,
+                                6.38
+                            ],
+                            "autoUnwrap": false,
+                            "uv": [
+                                3.0,
+                                0.0
+                            ],
+                            "rotationOrigin": [
+                                3.9439999999999995,
+                                9.86,
+                                6.38
+                            ],
+                            "rotationX": -36.0,
+                            "faces": {
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        5.5,
+                                        0.0,
+                                        11.5,
+                                        2.0
+                                    ],
+                                    "rotation": 180
+                                }
+                            }
+                        },
+                        {
+                            "name": "Cube11",
+                            "from": [
+                                0.0,
+                                9.86,
+                                0.0
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                12.18,
+                                0.0
+                            ],
+                            "autoUnwrap": false,
+                            "uv": [
+                                3.0,
+                                0.0
+                            ],
+                            "rotationOrigin": [
+                                3.9439999999999995,
+                                9.86,
+                                0.0
+                            ],
+                            "rotationX": 36.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        6.5,
+                                        11.0,
+                                        12.5,
+                                        13.0
+                                    ],
+                                    "rotation": 180
+                                }
+                            }
+                        },
+                        {
+                            "name": "Cube10",
+                            "from": [
+                                6.959999999999999,
+                                9.86,
+                                0.0
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                12.18,
+                                6.38
+                            ],
+                            "autoUnwrap": false,
+                            "uv": [
+                                11.0,
+                                16.0
+                            ],
+                            "rotationOrigin": [
+                                6.959999999999999,
+                                9.86,
+                                3.132
+                            ],
+                            "rotationZ": 28.0,
+                            "faces": {
+                                "east": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        12.5,
+                                        12.5,
+                                        18.0,
+                                        14.5
+                                    ],
+                                    "rotation": 180
+                                }
+                            }
+                        },
+                        {
+                            "name": "Cube9",
+                            "from": [
+                                0.0,
+                                9.86,
+                                0.0
+                            ],
+                            "to": [
+                                0.0,
+                                12.18,
+                                6.38
+                            ],
+                            "autoUnwrap": false,
+                            "uv": [
+                                11.0,
+                                16.0
+                            ],
+                            "rotationOrigin": [
+                                0.0,
+                                9.86,
+                                3.132
+                            ],
+                            "rotationZ": -39.0,
+                            "faces": {
+                                "west": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        20.0,
+                                        27.0,
+                                        25.5,
+                                        29.0
+                                    ],
+                                    "rotation": 180
+                                }
+                            }
+                        },
+                        {
+                            "name": "PartLeft8",
+                            "from": [
+                                0.0,
+                                7.539999999999999,
+                                0.0
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                0.0
+                            ],
+                            "autoUnwrap": false,
+                            "uv": [
+                                6.0,
+                                11.0
+                            ],
+                            "rotationOrigin": [
+                                3.9439999999999995,
+                                9.86,
+                                0.0
+                            ],
+                            "rotationX": 19.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        6.0,
+                                        11.0,
+                                        12.0,
+                                        13.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "PartRight",
+                            "from": [
+                                0.0,
+                                6.38,
+                                6.38
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                6.38
+                            ],
+                            "uv": [
+                                12.5,
+                                11.0
+                            ],
+                            "rotationOrigin": [
+                                3.9439999999999995,
+                                9.86,
+                                6.38
+                            ],
+                            "rotationX": -5.0,
+                            "faces": {
+                                "south": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        12.5,
+                                        11.0,
+                                        18.5,
+                                        14.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "PartLeft",
+                            "from": [
+                                0.0,
+                                6.38,
+                                0.0
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                0.0
+                            ],
+                            "uv": [
+                                0.0,
+                                12.0
+                            ],
+                            "rotationOrigin": [
+                                3.9439999999999995,
+                                9.86,
+                                0.0
+                            ],
+                            "rotationX": 5.0,
+                            "faces": {
+                                "north": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        0.0,
+                                        12.0,
+                                        6.0,
+                                        15.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "PartRightTop",
+                            "from": [
+                                0.58,
+                                9.86,
+                                -0.23199999999999998
+                            ],
+                            "to": [
+                                6.38,
+                                9.86,
+                                5.568
+                            ],
+                            "autoUnwrap": false,
+                            "uv": [
+                                20.0,
+                                10.5
+                            ],
+                            "rotationOrigin": [
+                                4.292,
+                                9.86,
+                                5.568
+                            ],
+                            "rotationX": 5.0,
+                            "faces": {
+                                "up": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        16.0,
+                                        1.5,
+                                        21.0,
+                                        6.5
+                                    ],
+                                    "rotation": 180
+                                }
+                            },
+                            "children": [
+                                {
+                                    "name": "Cube1",
+                                    "from": [
+                                        -0.348,
+                                        0.0,
+                                        -1.16
+                                    ],
+                                    "to": [
+                                        6.032,
+                                        0.0,
+                                        2.32
+                                    ],
+                                    "autoUnwrap": false,
+                                    "uv": [
+                                        13.0,
+                                        12.0
+                                    ],
+                                    "rotationOrigin": [
+                                        3.7119999999999997,
+                                        0.0,
+                                        2.32
+                                    ],
+                                    "rotationX": -22.0,
+                                    "faces": {
+                                        "up": {
+                                            "texture": "#hair",
+                                            "uv": [
+                                                13.0,
+                                                12.0,
+                                                18.5,
+                                                15.0
+                                            ],
+                                            "rotation": 180
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PartLeftTop",
+                            "from": [
+                                0.0,
+                                9.86,
+                                5.568
+                            ],
+                            "to": [
+                                6.959999999999999,
+                                9.86,
+                                7.887999999999999
+                            ],
+                            "uv": [
+                                19.5,
+                                11.5
+                            ],
+                            "rotationOrigin": [
+                                3.4799999999999995,
+                                9.86,
+                                5.568
+                            ],
+                            "rotationX": 44.0,
+                            "faces": {
+                                "up": {
+                                    "texture": "#hair",
+                                    "uv": [
+                                        19.5,
+                                        11.5,
+                                        25.5,
+                                        13.5
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hair tile upper part",
+            "stepParentName": "Head",
+            "from": [
+                -0.5755999999999999,
+                -2.936,
+                -0.996
+            ],
+            "to": [
+                7.5443999999999996,
+                5.764,
+                5.964
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                3.0,
+                9.0
+            ],
+            "rotationOrigin": [
+                3.2932319999999993,
+                6.002728,
+                2.136
+            ],
+            "rotationZ": 2.0,
+            "faces": {}
+        }
+    ]
+}

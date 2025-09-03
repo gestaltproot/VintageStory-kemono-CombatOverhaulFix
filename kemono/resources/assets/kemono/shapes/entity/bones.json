@@ -1,1 +1,328 @@
-{"textureWidth": 128, "textureHeight": 128, "textures": {}, "textureSizes": {}, "elements": [{"name": "b_Root", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_TorsoLower", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Jaw", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_ItemAnchorR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner3R", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Bust", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_FootLowerL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_BreastR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingMainL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_LegLowerR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_ArmUpperL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_FootUpperL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_LegLowerL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_ArmLowerR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Tail4", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_ArmLowerL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_NeckLower", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_LegUpperR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingMainR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner0L", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_LegUpperL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Tail2", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner0R", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_ItemAnchor", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Neck", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner1R", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_EarL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner2L", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Head", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner3L", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_FootUpperR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Tail0", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_EarR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Tail1", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Tail3", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_TorsoUpper", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner1L", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_ArmUpperR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_WingInner2R", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_BreastL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_Tail5", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_FootLowerR", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}, {"name": "b_ItemAnchorL", "from": [0, 0, 0], "to": [0, 0, 0], "rotationOrigin": [0, 0, 0], "faces": {"north": {"enabled": false}, "south": {"enabled": false}, "east": {"enabled": false}, "west": {"enabled": false}, "up": {"enabled": false}, "down": {"enabled": false}}}]}
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 128,
+	"textureHeight": 128,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "b_Root",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_TorsoLower",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Jaw",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_ItemAnchorR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner3R",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Bust",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_FootLowerL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_BreastR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingMainL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_LegLowerR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_ArmUpperL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_FootUpperL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_LegLowerL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_ArmLowerR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Tail4",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_ArmLowerL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_NeckLower",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_LegUpperR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingMainR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner0L",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_LegUpperL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Tail2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner0R",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_ItemAnchor",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Neck",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner1R",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_EarL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner2L",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Head",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner3L",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_FootUpperR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Tail0",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_EarR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Tail1",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Tail3",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_TorsoUpper",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner1L",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_ArmUpperR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_WingInner2R",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_BreastL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_Tail5",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_FootLowerR",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		},
+		{
+			"name": "b_ItemAnchorL",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			}
+		}
+	]}

@@ -703,8 +703,8 @@ public class EntityKemonoPlayerShapeRenderer : EntityPlayerShapeRenderer, IKemon
                 else
                 {
                     HashSet<int> includeJointIds = new HashSet<int>();
-                    loadJointIdsRecursive(entity.AnimManager.Animator.GetPosebyName("b_ArmUpperL"), includeJointIds);
-                    loadJointIdsRecursive(entity.AnimManager.Animator.GetPosebyName("b_ArmUpperR"), includeJointIds);
+                    loadJointIdsRecursive(entity.AnimManager.Animator.GetPosebyName("UpperArmL"), includeJointIds);
+                    loadJointIdsRecursive(entity.AnimManager.Animator.GetPosebyName("UpperArmR"), includeJointIds);
 
                     firstPersonMesh.AddMeshData(meshData, (i) => includeJointIds.Contains(meshData.CustomInts.Values[i * 4]));
                 }

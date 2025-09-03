@@ -902,8 +902,8 @@ public class KemonoSkinnableModel
     // joint names used for head controller
     public string JointHead = "b_Head";
     public string JointNeck = "b_Neck";
-    public string JointTorsoUpper = "b_TorsoUpper";
-    public string JointTorsoLower = "b_TorsoLower";
+    public string JointTorsoUpper = "UpperTorso";
+    public string JointTorsoLower = "LowerTorso";
     public string JointLegUpperL = "b_FootUpperL";
     public string JointLegUpperR = "b_FootUpperR";
 

@@ -1,1 +1,151 @@
-{"editor":{"backDropShape":"entity/humanoid/seraph-hairless","allAngles":true,"entityTextureMode":true},"textureWidth":48,"textureHeight":48,"textureSizes":{"hair":[48,48],"birch":[16,16]},"textures":{"hair":"game:entity/humanoid/seraphskinparts/hair/lightgray"},"elements":[{"name":"HairBaseRight","stepParentName":"Head","from":[-0.33199999999999996,-0.848,-0.416],"to":[6.396,5.532,1.9039999999999997],"autoUnwrap":false,"uv":[1.5,10.5],"rotationOrigin":[3.1479999999999997,2.632,2.6],"rotationX":1.0,"faces":{"north":{"texture":"#hair","uv":[0.0,10.5,5.5,16.0]},"east":{"texture":"#hair","uv":[10.0,0.0,12.0,5.5]},"west":{"texture":"#hair","uv":[5.5,0.0,7.5,5.5]},"up":{"texture":"#hair","uv":[19.5,11.0,25.0,13.0]}}},{"name":"HairBaseLeft","stepParentName":"Head","from":[-0.33199999999999996,-0.848,3.296],"to":[6.396,5.532,5.616],"autoUnwrap":false,"uv":[1.5,10.5],"rotationOrigin":[3.1479999999999997,2.632,2.8320000000000003],"rotationX":-1.0,"faces":{"east":{"texture":"#hair","uv":[5.5,0.0,7.5,5.5]},"south":{"texture":"#hair","uv":[0.0,10.5,5.5,16.0]},"west":{"texture":"#hair","uv":[10.0,0.0,12.0,5.5]},"up":{"texture":"#hair","uv":[19.5,11.0,25.0,13.0],"rotation":180}}}]}
+{
+    "editor": {
+        "backDropShape": "entity/humanoid/seraph-hairless",
+        "allAngles": true,
+        "entityTextureMode": true
+    },
+    "textureWidth": 48,
+    "textureHeight": 48,
+    "textureSizes": {
+        "hair": [
+            48,
+            48
+        ],
+        "birch": [
+            16,
+            16
+        ]
+    },
+    "textures": {
+        "hair": "game:entity/humanoid/seraphskinparts/hair/lightgray"
+    },
+    "elements": [
+        {
+            "name": "HairBaseRight",
+            "stepParentName": "Head",
+            "from": [
+                -0.33199999999999996,
+                -0.848,
+                -0.416
+            ],
+            "to": [
+                6.396,
+                5.532,
+                1.9039999999999997
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                1.5,
+                10.5
+            ],
+            "rotationOrigin": [
+                3.1479999999999997,
+                2.632,
+                2.6
+            ],
+            "rotationX": 1.0,
+            "faces": {
+                "north": {
+                    "texture": "#hair",
+                    "uv": [
+                        0.0,
+                        10.5,
+                        5.5,
+                        16.0
+                    ]
+                },
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        10.0,
+                        0.0,
+                        12.0,
+                        5.5
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        5.5,
+                        0.0,
+                        7.5,
+                        5.5
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        19.5,
+                        11.0,
+                        25.0,
+                        13.0
+                    ]
+                }
+            }
+        },
+        {
+            "name": "HairBaseLeft",
+            "stepParentName": "Head",
+            "from": [
+                -0.33199999999999996,
+                -0.848,
+                3.296
+            ],
+            "to": [
+                6.396,
+                5.532,
+                5.616
+            ],
+            "autoUnwrap": false,
+            "uv": [
+                1.5,
+                10.5
+            ],
+            "rotationOrigin": [
+                3.1479999999999997,
+                2.632,
+                2.8320000000000003
+            ],
+            "rotationX": -1.0,
+            "faces": {
+                "east": {
+                    "texture": "#hair",
+                    "uv": [
+                        5.5,
+                        0.0,
+                        7.5,
+                        5.5
+                    ]
+                },
+                "south": {
+                    "texture": "#hair",
+                    "uv": [
+                        0.0,
+                        10.5,
+                        5.5,
+                        16.0
+                    ]
+                },
+                "west": {
+                    "texture": "#hair",
+                    "uv": [
+                        10.0,
+                        0.0,
+                        12.0,
+                        5.5
+                    ]
+                },
+                "up": {
+                    "texture": "#hair",
+                    "uv": [
+                        19.5,
+                        11.0,
+                        25.0,
+                        13.0
+                    ],
+                    "rotation": 180
+                }
+            }
+        }
+    ]
+}

@@ -1,1 +1,110 @@
-{"textureWidth":32,"textureHeight":32,"textures":{"cutiemark":"kemono:entity/common/emblemblank"},"textureSizes":{"cutiemark":[32,32]},"elements":[{"name":"cutieleft","from":[-2.6729654669761658,-2.028562068939209,0.9353291839361191],"to":[1.8356881737709045,2.4800915718078613,1.2246709018945694],"rotationOrigin":[-0.4186386466026306,0.22576475143432617,1.0800000429153442],"rotationZ":57.99999933726732,"group":"Scene Collection","faces":{"north":{"texture":"#cutiemark","uv":[0.0,0.0,4.0,4.0],"autoUv":false,"rotation":270,"enabled":false},"east":{"texture":"#cutiemark","uv":[0.0,0.0,4.0,4.0],"autoUv":false,"rotation":270,"enabled":false},"south":{"texture":"#cutiemark","uv":[0.0,0.0,32.0,32.0],"autoUv":false},"west":{"texture":"#cutiemark","uv":[0.0,0.0,4.0,4.0],"autoUv":false,"rotation":270,"enabled":false},"up":{"texture":"#cutiemark","uv":[0.0,0.0,4.0,4.0],"autoUv":false,"rotation":270,"enabled":false},"down":{"texture":"#cutiemark","uv":[4.0,4.0,0.0,0.0],"autoUv":false,"rotation":270,"enabled":false}},"children":[],"stepParentName":"b_LegUpperL"}],"groups":[]}
+{
+  "textureWidth": 32,
+  "textureHeight": 32,
+  "textures": {
+    "cutiemark": "kemono:entity/common/emblemblank"
+  },
+  "textureSizes": {
+    "cutiemark": [
+      32,
+      32
+    ]
+  },
+  "elements": [
+    {
+      "name": "cutieleft",
+      "from": [
+        -2.6729654669761658,
+        -2.028562068939209,
+        0.9353291839361191
+      ],
+      "to": [
+        1.8356881737709045,
+        2.4800915718078613,
+        1.2246709018945694
+      ],
+      "rotationOrigin": [
+        -0.4186386466026306,
+        0.22576475143432617,
+        1.0800000429153442
+      ],
+      "rotationZ": 57.99999933726732,
+      "group": "Scene Collection",
+      "faces": {
+        "north": {
+          "texture": "#cutiemark",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "autoUv": false,
+          "rotation": 270,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#cutiemark",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "autoUv": false,
+          "rotation": 270,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#cutiemark",
+          "uv": [
+            0.0,
+            0.0,
+            32.0,
+            32.0
+          ],
+          "autoUv": false
+        },
+        "west": {
+          "texture": "#cutiemark",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "autoUv": false,
+          "rotation": 270,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#cutiemark",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "autoUv": false,
+          "rotation": 270,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#cutiemark",
+          "uv": [
+            4.0,
+            4.0,
+            0.0,
+            0.0
+          ],
+          "autoUv": false,
+          "rotation": 270,
+          "enabled": false
+        }
+      },
+      "children": [],
+      "stepParentName": "b_LegUpperL"
+    }
+  ],
+  "groups": []
+}

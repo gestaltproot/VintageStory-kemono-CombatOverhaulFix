@@ -2,7 +2,7 @@
   "textureWidth": 32,
   "textureHeight": 32,
   "textures": {
-    "cutiemark": "kemono:entity/common/emblemblank"
+    "cutiemark": "kemono:entity/common/emblem"
   },
   "textureSizes": {
     "cutiemark": [
@@ -12,21 +12,21 @@
   },
   "elements": [
     {
-      "name": "cutieright",
+      "name": "cutieleft",
       "from": [
         -2.6729654669761658,
         -2.028562068939209,
-        -1.2246709018945694
+        0.9353291839361191
       ],
       "to": [
         1.8356881737709045,
         2.4800915718078613,
-        -0.9353291839361191
+        1.2246709018945694
       ],
       "rotationOrigin": [
         -0.4186386466026306,
         0.22576475143432617,
-        -1.0800000429153442
+        1.0800000429153442
       ],
       "rotationZ": 57.99999933726732,
       "group": "Scene Collection",
@@ -36,53 +36,53 @@
           "uv": [
             0.0,
             0.0,
-            32.0,
-            32.0
+            4.0,
+            4.0
           ],
-          "autoUv": false
+          "autoUv": false,
+          "rotation": 270,
+          "enabled": false
         },
         "east": {
           "texture": "#cutiemark",
           "uv": [
+            0.0,
+            0.0,
             4.0,
-            0.0,
-            0.0,
             4.0
           ],
           "autoUv": false,
-          "rotation": 90,
+          "rotation": 270,
           "enabled": false
         },
         "south": {
           "texture": "#cutiemark",
           "uv": [
-            4.0,
             0.0,
             0.0,
-            4.0
+            32.0,
+            32.0
           ],
-          "autoUv": false,
-          "rotation": 90,
-          "enabled": false
+          "autoUv": false
         },
         "west": {
           "texture": "#cutiemark",
           "uv": [
+            0.0,
+            0.0,
             4.0,
-            0.0,
-            0.0,
             4.0
           ],
           "autoUv": false,
-          "rotation": 90,
+          "rotation": 270,
           "enabled": false
         },
         "up": {
           "texture": "#cutiemark",
           "uv": [
+            0.0,
+            0.0,
             4.0,
-            0.0,
-            0.0,
             4.0
           ],
           "autoUv": false,
@@ -92,9 +92,9 @@
         "down": {
           "texture": "#cutiemark",
           "uv": [
+            4.0,
+            4.0,
             0.0,
-            4.0,
-            4.0,
             0.0
           ],
           "autoUv": false,
@@ -103,7 +103,7 @@
         }
       },
       "children": [],
-      "stepParentName": "b_LegUpperR"
+      "stepParentName": "b_LegUpperL"
     }
   ],
   "groups": []
