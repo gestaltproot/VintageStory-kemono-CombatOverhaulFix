@@ -26,7 +26,7 @@ class PatchDrunkPerceptionEffectApplyToTpPlayer
 
         float inten = playerIntensity == null ? __instance.Intensity : (float)playerIntensity;
 
-        var pos = entityPlr.AnimManager.Animator.GetPosebyName("b_Root"); // change to bone name
+        var pos = entityPlr.AnimManager.Animator.GetPosebyName("root"); // change to bone name
         var accum = (float) accumProp.GetValue(__instance);
         pos.degOffX = GameMath.Sin(accum) / 5f * inten * GameMath.RAD2DEG;
         pos.degOffZ = GameMath.Sin(accum * 1.2f) / 5f * inten * GameMath.RAD2DEG;

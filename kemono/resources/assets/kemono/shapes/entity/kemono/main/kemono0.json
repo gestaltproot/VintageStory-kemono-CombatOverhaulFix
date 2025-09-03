@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/root/LowerTorso/UpperFootL,Root/root/LowerTorso/Tail1,Root/root/LowerTorso/b_Tail0,Root/b_Root,Root/b_Root/b_TorsoLower/b_TorsoUpper/b_Neck/b_Head,Root/root/LowerTorso/UpperTorso/Neck,Root/root/LowerTorso/UpperFootR,Root/root/LowerTorso/UpperTorso/Neck/Head/mouth,Root/root/LowerTorso,Root/b_Root/b_TorsoLower/b_TorsoUpper/b_Neck,Root/root/LowerTorso/UpperTorso/Neck/Head/LeftEarBase,Root/b_Root/b_TorsoLower/b_Tail0,Root/root/LowerTorso/UpperTorso/Neck/Head/RightEarBase,Root/root/LowerTorso/UpperTorso/b_Neck,Root/root/LowerTorso/UpperTorso/Neck/Head/muzzle,Root/root,Root/root/LowerTorso/UpperTorso/b_Neck/b_Head,Root/b_Root/b_TorsoLower/b_FootUpperL,Root/root/LowerTorso/b_FootUpperR,Root/root/LowerTorso/UpperTorso/UpperArmR,Root/b_Root/b_TorsoLower/b_FootUpperR,Root/root/LowerTorso/b_FootUpperL",
+		"collapsedPaths": "Root/root/LowerTorso/UpperFootL,Root/root/LowerTorso/Tail1,Root/root/LowerTorso/b_Tail0,Root/b_Root,Root/b_Root/b_TorsoLower/b_TorsoUpper/b_Neck/b_Head,Root/root/LowerTorso/UpperTorso/Neck,Root/root/LowerTorso/UpperFootR,Root/root/LowerTorso/UpperTorso/Neck/Head/mouth,Root/b_Root/b_TorsoLower/b_TorsoUpper/b_Neck,Root/root/LowerTorso/UpperTorso/Neck/Head/LeftEarBase,Root/b_Root/b_TorsoLower/b_Tail0,Root/root/LowerTorso/UpperTorso/Neck/Head/RightEarBase,Root/root/LowerTorso/UpperTorso/b_Neck,Root/root/LowerTorso/UpperTorso/Neck/Head/muzzle,Root/root/LowerTorso/UpperTorso/b_Neck/b_Head,Root/b_Root/b_TorsoLower/b_FootUpperL,Root/b_Root/b_TorsoLower/b_FootUpperR,Root/root/LowerTorso/UpperTorso/UpperArmL",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -549,20 +549,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "b_root",
-			"from": [ 0.0, 0.0, 0.0 ],
-			"to": [ 0.0, 0.0, 0.0 ],
-			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
-			"faces": {
-				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
-			}
 		}
 	],
 	"animations": [
