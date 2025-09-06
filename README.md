@@ -9,19 +9,17 @@ This is a fork of [xeth's kemono mod](https://gitlab.com/xeth/kemono) which adds
 - because the weapon swing animation never occurs, the weapon can ONLY do damage if the stationary weapon is intersecting an enemy
 
 ## What has been done so far
-- Rename the bones for the kemono model to match the vanilla skeleton (copying and building upon work by Coden364)
+- Rename the bones (torso and arms) for the kemono model to match the vanilla skeleton (copying and building upon work by Coden364)
 - Updates some hardcoded strings in the code to match the new bone names
 - Moves the kemono project to Visual Studio away from VS code and the weird workflows
+- Update the animation data for the legs, because changing the name of the upper body bones inverts their Y-axis rotation?????
 
 ## HERE IS WHAT WORKS
-- First person Combat Overhaul animations
-- Third person walking animations
+- All animations (i think)
 
 ## What I need help with
-- Many vanilla animations aren't working correctly, and need to be fixed
-- Third person walking animation looks ridiculous, and upper body is too stiff
-- kemono emotes are borked
-- some clothes don't attach in the right spot
-- sitting animation is borked
-
-I have absolutely no idea how to fix the animations, and want help working on this.
+- some animations look a little wacky
+	- riding an elk
+	- sitting on the ground
+	- probably some other animations i have not tested
+- oh yeah, the emotes prolly won't work
