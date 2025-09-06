@@ -28594,7 +28594,7 @@
 						},
 						"b_FootUpperR": {
 							"rotationX": 166.98615872,
-							"rotationY": -94.10135352,
+							"rotationY": 94.10135352,
 							"rotationZ": -157.60310438,
 							"offsetX": -1.06697428,
 							"offsetY": 1.38083851,
@@ -28644,8 +28644,8 @@
 							"offsetZ": 0.71257365
 						},
 						"b_FootLowerL": {
-							"rotationX": -49.96470525,
-							"rotationY": -123.01174793,
+							"rotationX": 49.96470525,
+							"rotationY": 90.01174793,
 							"rotationZ": 14.42412156
 						},
 						"b_Tail0": {
