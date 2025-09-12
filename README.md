@@ -1,6 +1,11 @@
 # Vintage Story kemono mod Combat Overhaul patch
 This is a fork of [xeth's kemono mod](https://gitlab.com/xeth/kemono) which adds compatibility with Combat Overhaul.
 
+## **THIS IS A DROP IN REPLACEMENT**
+Download the [latest release](https://github.com/gestaltproot/VintageStory-kemono-CombatOverhaulFix/releases/latest) and add it to your mods folder.
+
+It uses the same mod ID as kemono and is incompatible. If you leave both enabled _only the original_ mod will be loaded, not the patch.
+
 ## The Problem
 - Combat Overhaul adds new animations for base game weapons, these animations are not remapped onto the kemono skeleton
 - The kemono skeleton is custom, likely to allow for the pony content, but the overall structure is compatible with a seraph skeleton
@@ -22,4 +27,5 @@ This is a fork of [xeth's kemono mod](https://gitlab.com/xeth/kemono) which adds
 	- riding an elk
 	- sitting on the ground
 	- probably some other animations i have not tested
+
 - oh yeah, the emotes prolly won't work
